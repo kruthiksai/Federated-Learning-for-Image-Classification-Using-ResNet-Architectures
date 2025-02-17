@@ -35,9 +35,10 @@ The simulation generates several outputs that help evaluate the performance of t
 
 ### Confusion Matrices
 - **ResNet-18 Confusion Matrix:** Shows the performance of the ResNet-18 model in classifying images into categories such as COVID, Normal, and Viral Pneumonia. This matrix helps visualize the accuracy of predictions against true labels.
-<img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_25_clients_3_nonIID/fedavg_CIFAR_non-IID_ResNet-18_Confusion_Matrix.png" width="25%" alt="feddyn_CIFAR_non-IID_ResNet-18 Confusion Matrix">
+<img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_ResNet-18_Confusion_Matrix.png" width="25%" alt="fedavg_FMNIST_IID_ResNet-18 Confusion Matrix">
 
 - **ResNet-50 Confusion Matrix:** Similar to the ResNet-18 matrix but for the ResNet-50 model, providing insight into its classification effectiveness.
+<img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_ResNet-50_Confusion_Matrix.png" width="25%" alt="fedavg_FMNIST_IID_ResNet-50 Confusion Matrix">
 
 ### Accuracy and Loss Graphs
 - **Accuracy Comparison Across Rounds:** This graph plots the accuracy of the ResNet-18 and ResNet-50 models across different rounds of federated learning. It is crucial for understanding how model accuracy evolves with each communication round between clients.
