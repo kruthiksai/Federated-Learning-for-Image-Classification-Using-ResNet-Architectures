@@ -35,7 +35,7 @@ The simulation generates several outputs that help evaluate the performance of t
 
 ### Confusion Matrices
 - **ResNet-18 Confusion Matrix:** Shows the performance of the ResNet-18 model in classifying images into categories such as COVID, Normal, and Viral Pneumonia. This matrix helps visualize the accuracy of predictions against true labels.
--  ![feddyn_CIFAR_non-IID_ResNet-18_Confusion_Matrix](https://github.com/user-attachments/assets/d6a1e83c-1f4b-42b4-8dc3-62595f01c452)
+- -  <img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_25_clients_3_nonIID/fedavg_CIFAR_non-IID_ResNet-18_Confusion_Matrix.png" width="25%" alt="feddyn_CIFAR_non-IID_ResNet-18 Confusion Matrix">
 
 - **ResNet-50 Confusion Matrix:** Similar to the ResNet-18 matrix but for the ResNet-50 model, providing insight into its classification effectiveness.
 
