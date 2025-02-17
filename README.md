@@ -43,6 +43,7 @@ The simulation generates several outputs that help evaluate the performance of t
 ### Accuracy and Loss Graphs
 - **Accuracy Comparison Across Rounds:** This graph plots the accuracy of the ResNet-18 and ResNet-50 models across different rounds of federated learning. It is crucial for understanding how model accuracy evolves with each communication round between clients.
 <img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_Accuracy_Graph.png" width="25%" alt="fedavg_FMNIST_IID Accuracy Comparison Graph">
+
 - **Loss Comparison Across Rounds:** Illustrates the change in loss for both ResNet models across federated learning rounds, highlighting how model performance improves or degrades over time.
 <img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_Loss_Graph.png" width="25%" alt="fedavg_FMNIST_IID Loss Comparison Graph">
 
