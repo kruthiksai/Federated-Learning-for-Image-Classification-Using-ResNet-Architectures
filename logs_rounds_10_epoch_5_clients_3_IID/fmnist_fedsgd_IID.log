@@ -1,0 +1,1495 @@
+Federated Learning Configuration:
+  Algorithm: fedsgd
+  Dataset: FMNIST
+  Distribution: IID
+  Number of Clients: 3
+  Rounds: 150
+  Local Epochs: 1
+
+Running fedsgd for ResNet-18
+
+--- FedSGD: Round 1 ---
+Client 1 Accuracy (Round 1): 0.0940
+Client 2 Accuracy (Round 1): 0.0893
+Client 3 Accuracy (Round 1): 0.0892
+Global Model, Round 1, Loss: 2.2338, Accuracy: 0.1736
+
+--- FedSGD: Round 2 ---
+Client 1 Accuracy (Round 2): 0.2495
+Client 2 Accuracy (Round 2): 0.2480
+Client 3 Accuracy (Round 2): 0.2482
+Global Model, Round 2, Loss: 2.1657, Accuracy: 0.2231
+
+--- FedSGD: Round 3 ---
+Client 1 Accuracy (Round 3): 0.3327
+Client 2 Accuracy (Round 3): 0.3132
+Client 3 Accuracy (Round 3): 0.3177
+Global Model, Round 3, Loss: 2.1232, Accuracy: 0.1947
+
+--- FedSGD: Round 4 ---
+Client 1 Accuracy (Round 4): 0.3645
+Client 2 Accuracy (Round 4): 0.3493
+Client 3 Accuracy (Round 4): 0.3508
+Global Model, Round 4, Loss: 2.0842, Accuracy: 0.1846
+
+--- FedSGD: Round 5 ---
+Client 1 Accuracy (Round 5): 0.3910
+Client 2 Accuracy (Round 5): 0.3899
+Client 3 Accuracy (Round 5): 0.4004
+Global Model, Round 5, Loss: 2.0435, Accuracy: 0.2346
+
+--- FedSGD: Round 6 ---
+Client 1 Accuracy (Round 6): 0.4377
+Client 2 Accuracy (Round 6): 0.4274
+Client 3 Accuracy (Round 6): 0.4308
+Global Model, Round 6, Loss: 2.0175, Accuracy: 0.2073
+
+--- FedSGD: Round 7 ---
+Client 1 Accuracy (Round 7): 0.4382
+Client 2 Accuracy (Round 7): 0.4365
+Client 3 Accuracy (Round 7): 0.4433
+Global Model, Round 7, Loss: 2.0018, Accuracy: 0.1929
+
+--- FedSGD: Round 8 ---
+Client 1 Accuracy (Round 8): 0.4429
+Client 2 Accuracy (Round 8): 0.4369
+Client 3 Accuracy (Round 8): 0.4353
+Global Model, Round 8, Loss: 1.9629, Accuracy: 0.2405
+
+--- FedSGD: Round 9 ---
+Client 1 Accuracy (Round 9): 0.4805
+Client 2 Accuracy (Round 9): 0.4860
+Client 3 Accuracy (Round 9): 0.4676
+Global Model, Round 9, Loss: 1.9421, Accuracy: 0.2498
+
+--- FedSGD: Round 10 ---
+Client 1 Accuracy (Round 10): 0.4794
+Client 2 Accuracy (Round 10): 0.4847
+Client 3 Accuracy (Round 10): 0.4739
+Global Model, Round 10, Loss: 1.9168, Accuracy: 0.2592
+
+--- FedSGD: Round 11 ---
+Client 1 Accuracy (Round 11): 0.4752
+Client 2 Accuracy (Round 11): 0.4995
+Client 3 Accuracy (Round 11): 0.4817
+Global Model, Round 11, Loss: 1.9061, Accuracy: 0.2672
+
+--- FedSGD: Round 12 ---
+Client 1 Accuracy (Round 12): 0.4993
+Client 2 Accuracy (Round 12): 0.5150
+Client 3 Accuracy (Round 12): 0.5190
+Global Model, Round 12, Loss: 1.9037, Accuracy: 0.2502
+
+--- FedSGD: Round 13 ---
+Client 1 Accuracy (Round 13): 0.5090
+Client 2 Accuracy (Round 13): 0.5251
+Client 3 Accuracy (Round 13): 0.5271
+Global Model, Round 13, Loss: 1.8959, Accuracy: 0.2516
+
+--- FedSGD: Round 14 ---
+Client 1 Accuracy (Round 14): 0.5106
+Client 2 Accuracy (Round 14): 0.5059
+Client 3 Accuracy (Round 14): 0.5198
+Global Model, Round 14, Loss: 1.8794, Accuracy: 0.2631
+
+--- FedSGD: Round 15 ---
+Client 1 Accuracy (Round 15): 0.5173
+Client 2 Accuracy (Round 15): 0.5021
+Client 3 Accuracy (Round 15): 0.5131
+Global Model, Round 15, Loss: 1.8757, Accuracy: 0.2508
+
+--- FedSGD: Round 16 ---
+Client 1 Accuracy (Round 16): 0.5333
+Client 2 Accuracy (Round 16): 0.5238
+Client 3 Accuracy (Round 16): 0.5145
+Global Model, Round 16, Loss: 1.8667, Accuracy: 0.2495
+
+--- FedSGD: Round 17 ---
+Client 1 Accuracy (Round 17): 0.5441
+Client 2 Accuracy (Round 17): 0.5424
+Client 3 Accuracy (Round 17): 0.5281
+Global Model, Round 17, Loss: 1.8644, Accuracy: 0.2520
+
+--- FedSGD: Round 18 ---
+Client 1 Accuracy (Round 18): 0.5464
+Client 2 Accuracy (Round 18): 0.5282
+Client 3 Accuracy (Round 18): 0.5482
+Global Model, Round 18, Loss: 1.8325, Accuracy: 0.2766
+
+--- FedSGD: Round 19 ---
+Client 1 Accuracy (Round 19): 0.5464
+Client 2 Accuracy (Round 19): 0.5533
+Client 3 Accuracy (Round 19): 0.5437
+Global Model, Round 19, Loss: 1.8352, Accuracy: 0.2671
+
+--- FedSGD: Round 20 ---
+Client 1 Accuracy (Round 20): 0.5698
+Client 2 Accuracy (Round 20): 0.5501
+Client 3 Accuracy (Round 20): 0.5543
+Global Model, Round 20, Loss: 1.8249, Accuracy: 0.2729
+
+--- FedSGD: Round 21 ---
+Client 1 Accuracy (Round 21): 0.5510
+Client 2 Accuracy (Round 21): 0.5556
+Client 3 Accuracy (Round 21): 0.5450
+Global Model, Round 21, Loss: 1.8379, Accuracy: 0.2472
+
+--- FedSGD: Round 22 ---
+Client 1 Accuracy (Round 22): 0.5592
+Client 2 Accuracy (Round 22): 0.5548
+Client 3 Accuracy (Round 22): 0.5564
+Global Model, Round 22, Loss: 1.8270, Accuracy: 0.2603
+
+--- FedSGD: Round 23 ---
+Client 1 Accuracy (Round 23): 0.5596
+Client 2 Accuracy (Round 23): 0.5702
+Client 3 Accuracy (Round 23): 0.5674
+Global Model, Round 23, Loss: 1.8323, Accuracy: 0.2499
+
+--- FedSGD: Round 24 ---
+Client 1 Accuracy (Round 24): 0.5817
+Client 2 Accuracy (Round 24): 0.5696
+Client 3 Accuracy (Round 24): 0.5934
+Global Model, Round 24, Loss: 1.8380, Accuracy: 0.2398
+
+--- FedSGD: Round 25 ---
+Client 1 Accuracy (Round 25): 0.5525
+Client 2 Accuracy (Round 25): 0.5511
+Client 3 Accuracy (Round 25): 0.5629
+Global Model, Round 25, Loss: 1.8295, Accuracy: 0.2369
+
+--- FedSGD: Round 26 ---
+Client 1 Accuracy (Round 26): 0.6000
+Client 2 Accuracy (Round 26): 0.5845
+Client 3 Accuracy (Round 26): 0.5877
+Global Model, Round 26, Loss: 1.8489, Accuracy: 0.2190
+
+--- FedSGD: Round 27 ---
+Client 1 Accuracy (Round 27): 0.5917
+Client 2 Accuracy (Round 27): 0.5843
+Client 3 Accuracy (Round 27): 0.5677
+Global Model, Round 27, Loss: 1.8346, Accuracy: 0.2356
+
+--- FedSGD: Round 28 ---
+Client 1 Accuracy (Round 28): 0.5690
+Client 2 Accuracy (Round 28): 0.5874
+Client 3 Accuracy (Round 28): 0.5641
+Global Model, Round 28, Loss: 1.8326, Accuracy: 0.2293
+
+--- FedSGD: Round 29 ---
+Client 1 Accuracy (Round 29): 0.5800
+Client 2 Accuracy (Round 29): 0.5794
+Client 3 Accuracy (Round 29): 0.5523
+Global Model, Round 29, Loss: 1.8278, Accuracy: 0.2308
+
+--- FedSGD: Round 30 ---
+Client 1 Accuracy (Round 30): 0.5765
+Client 2 Accuracy (Round 30): 0.5898
+Client 3 Accuracy (Round 30): 0.5718
+Global Model, Round 30, Loss: 1.8016, Accuracy: 0.2557
+
+--- FedSGD: Round 31 ---
+Client 1 Accuracy (Round 31): 0.6102
+Client 2 Accuracy (Round 31): 0.6265
+Client 3 Accuracy (Round 31): 0.5978
+Global Model, Round 31, Loss: 1.8207, Accuracy: 0.2309
+
+--- FedSGD: Round 32 ---
+Client 1 Accuracy (Round 32): 0.5859
+Client 2 Accuracy (Round 32): 0.5867
+Client 3 Accuracy (Round 32): 0.6101
+Global Model, Round 32, Loss: 1.8176, Accuracy: 0.2299
+
+--- FedSGD: Round 33 ---
+Client 1 Accuracy (Round 33): 0.5976
+Client 2 Accuracy (Round 33): 0.5931
+Client 3 Accuracy (Round 33): 0.5939
+Global Model, Round 33, Loss: 1.8101, Accuracy: 0.2386
+
+--- FedSGD: Round 34 ---
+Client 1 Accuracy (Round 34): 0.6057
+Client 2 Accuracy (Round 34): 0.6058
+Client 3 Accuracy (Round 34): 0.6230
+Global Model, Round 34, Loss: 1.8022, Accuracy: 0.2545
+
+--- FedSGD: Round 35 ---
+Client 1 Accuracy (Round 35): 0.5968
+Client 2 Accuracy (Round 35): 0.6062
+Client 3 Accuracy (Round 35): 0.5989
+Global Model, Round 35, Loss: 1.7956, Accuracy: 0.2595
+
+--- FedSGD: Round 36 ---
+Client 1 Accuracy (Round 36): 0.6009
+Client 2 Accuracy (Round 36): 0.6292
+Client 3 Accuracy (Round 36): 0.6116
+Global Model, Round 36, Loss: 1.7911, Accuracy: 0.2602
+
+--- FedSGD: Round 37 ---
+Client 1 Accuracy (Round 37): 0.6278
+Client 2 Accuracy (Round 37): 0.5986
+Client 3 Accuracy (Round 37): 0.6203
+Global Model, Round 37, Loss: 1.7873, Accuracy: 0.2551
+
+--- FedSGD: Round 38 ---
+Client 1 Accuracy (Round 38): 0.6101
+Client 2 Accuracy (Round 38): 0.6365
+Client 3 Accuracy (Round 38): 0.6526
+Global Model, Round 38, Loss: 1.7782, Accuracy: 0.2684
+
+--- FedSGD: Round 39 ---
+Client 1 Accuracy (Round 39): 0.6141
+Client 2 Accuracy (Round 39): 0.6627
+Client 3 Accuracy (Round 39): 0.6267
+Global Model, Round 39, Loss: 1.7692, Accuracy: 0.2842
+
+--- FedSGD: Round 40 ---
+Client 1 Accuracy (Round 40): 0.6257
+Client 2 Accuracy (Round 40): 0.6331
+Client 3 Accuracy (Round 40): 0.6097
+Global Model, Round 40, Loss: 1.7920, Accuracy: 0.2599
+
+--- FedSGD: Round 41 ---
+Client 1 Accuracy (Round 41): 0.6241
+Client 2 Accuracy (Round 41): 0.6245
+Client 3 Accuracy (Round 41): 0.6394
+Global Model, Round 41, Loss: 1.7944, Accuracy: 0.2533
+
+--- FedSGD: Round 42 ---
+Client 1 Accuracy (Round 42): 0.6160
+Client 2 Accuracy (Round 42): 0.6294
+Client 3 Accuracy (Round 42): 0.6102
+Global Model, Round 42, Loss: 1.8219, Accuracy: 0.2275
+
+--- FedSGD: Round 43 ---
+Client 1 Accuracy (Round 43): 0.5858
+Client 2 Accuracy (Round 43): 0.6163
+Client 3 Accuracy (Round 43): 0.5786
+Global Model, Round 43, Loss: 1.7899, Accuracy: 0.2622
+
+--- FedSGD: Round 44 ---
+Client 1 Accuracy (Round 44): 0.5884
+Client 2 Accuracy (Round 44): 0.6161
+Client 3 Accuracy (Round 44): 0.6077
+Global Model, Round 44, Loss: 1.8121, Accuracy: 0.2403
+
+--- FedSGD: Round 45 ---
+Client 1 Accuracy (Round 45): 0.6288
+Client 2 Accuracy (Round 45): 0.6193
+Client 3 Accuracy (Round 45): 0.6186
+Global Model, Round 45, Loss: 1.8015, Accuracy: 0.2558
+
+--- FedSGD: Round 46 ---
+Client 1 Accuracy (Round 46): 0.6105
+Client 2 Accuracy (Round 46): 0.6229
+Client 3 Accuracy (Round 46): 0.6179
+Global Model, Round 46, Loss: 1.8067, Accuracy: 0.2381
+
+--- FedSGD: Round 47 ---
+Client 1 Accuracy (Round 47): 0.6145
+Client 2 Accuracy (Round 47): 0.6209
+Client 3 Accuracy (Round 47): 0.6293
+Global Model, Round 47, Loss: 1.8095, Accuracy: 0.2416
+
+--- FedSGD: Round 48 ---
+Client 1 Accuracy (Round 48): 0.6194
+Client 2 Accuracy (Round 48): 0.6444
+Client 3 Accuracy (Round 48): 0.6425
+Global Model, Round 48, Loss: 1.8008, Accuracy: 0.2393
+
+--- FedSGD: Round 49 ---
+Client 1 Accuracy (Round 49): 0.6328
+Client 2 Accuracy (Round 49): 0.6240
+Client 3 Accuracy (Round 49): 0.6253
+Global Model, Round 49, Loss: 1.8070, Accuracy: 0.2361
+
+--- FedSGD: Round 50 ---
+Client 1 Accuracy (Round 50): 0.6060
+Client 2 Accuracy (Round 50): 0.6274
+Client 3 Accuracy (Round 50): 0.6354
+Global Model, Round 50, Loss: 1.8129, Accuracy: 0.2345
+
+--- FedSGD: Round 51 ---
+Client 1 Accuracy (Round 51): 0.6328
+Client 2 Accuracy (Round 51): 0.6599
+Client 3 Accuracy (Round 51): 0.6439
+Global Model, Round 51, Loss: 1.7926, Accuracy: 0.2458
+
+--- FedSGD: Round 52 ---
+Client 1 Accuracy (Round 52): 0.6423
+Client 2 Accuracy (Round 52): 0.6481
+Client 3 Accuracy (Round 52): 0.6377
+Global Model, Round 52, Loss: 1.8134, Accuracy: 0.2307
+
+--- FedSGD: Round 53 ---
+Client 1 Accuracy (Round 53): 0.6298
+Client 2 Accuracy (Round 53): 0.6362
+Client 3 Accuracy (Round 53): 0.6366
+Global Model, Round 53, Loss: 1.8230, Accuracy: 0.2313
+
+--- FedSGD: Round 54 ---
+Client 1 Accuracy (Round 54): 0.6472
+Client 2 Accuracy (Round 54): 0.6309
+Client 3 Accuracy (Round 54): 0.6211
+Global Model, Round 54, Loss: 1.8097, Accuracy: 0.2261
+
+--- FedSGD: Round 55 ---
+Client 1 Accuracy (Round 55): 0.6280
+Client 2 Accuracy (Round 55): 0.6121
+Client 3 Accuracy (Round 55): 0.6031
+Global Model, Round 55, Loss: 1.7907, Accuracy: 0.2490
+
+--- FedSGD: Round 56 ---
+Client 1 Accuracy (Round 56): 0.6500
+Client 2 Accuracy (Round 56): 0.6259
+Client 3 Accuracy (Round 56): 0.6543
+Global Model, Round 56, Loss: 1.8023, Accuracy: 0.2436
+
+--- FedSGD: Round 57 ---
+Client 1 Accuracy (Round 57): 0.6323
+Client 2 Accuracy (Round 57): 0.6563
+Client 3 Accuracy (Round 57): 0.6294
+Global Model, Round 57, Loss: 1.7829, Accuracy: 0.2456
+
+--- FedSGD: Round 58 ---
+Client 1 Accuracy (Round 58): 0.6407
+Client 2 Accuracy (Round 58): 0.6381
+Client 3 Accuracy (Round 58): 0.6397
+Global Model, Round 58, Loss: 1.7843, Accuracy: 0.2471
+
+--- FedSGD: Round 59 ---
+Client 1 Accuracy (Round 59): 0.6389
+Client 2 Accuracy (Round 59): 0.6367
+Client 3 Accuracy (Round 59): 0.6471
+Global Model, Round 59, Loss: 1.7793, Accuracy: 0.2548
+
+--- FedSGD: Round 60 ---
+Client 1 Accuracy (Round 60): 0.6710
+Client 2 Accuracy (Round 60): 0.6450
+Client 3 Accuracy (Round 60): 0.6498
+Global Model, Round 60, Loss: 1.8018, Accuracy: 0.2336
+
+--- FedSGD: Round 61 ---
+Client 1 Accuracy (Round 61): 0.6471
+Client 2 Accuracy (Round 61): 0.6215
+Client 3 Accuracy (Round 61): 0.6303
+Global Model, Round 61, Loss: 1.7871, Accuracy: 0.2394
+
+--- FedSGD: Round 62 ---
+Client 1 Accuracy (Round 62): 0.6450
+Client 2 Accuracy (Round 62): 0.6458
+Client 3 Accuracy (Round 62): 0.6755
+Global Model, Round 62, Loss: 1.7908, Accuracy: 0.2435
+
+--- FedSGD: Round 63 ---
+Client 1 Accuracy (Round 63): 0.6514
+Client 2 Accuracy (Round 63): 0.6530
+Client 3 Accuracy (Round 63): 0.6595
+Global Model, Round 63, Loss: 1.7904, Accuracy: 0.2513
+
+--- FedSGD: Round 64 ---
+Client 1 Accuracy (Round 64): 0.6587
+Client 2 Accuracy (Round 64): 0.6266
+Client 3 Accuracy (Round 64): 0.6310
+Global Model, Round 64, Loss: 1.7762, Accuracy: 0.2686
+
+--- FedSGD: Round 65 ---
+Client 1 Accuracy (Round 65): 0.6444
+Client 2 Accuracy (Round 65): 0.6165
+Client 3 Accuracy (Round 65): 0.6310
+Global Model, Round 65, Loss: 1.7869, Accuracy: 0.2661
+
+--- FedSGD: Round 66 ---
+Client 1 Accuracy (Round 66): 0.6516
+Client 2 Accuracy (Round 66): 0.6381
+Client 3 Accuracy (Round 66): 0.6232
+Global Model, Round 66, Loss: 1.7613, Accuracy: 0.2819
+
+--- FedSGD: Round 67 ---
+Client 1 Accuracy (Round 67): 0.6435
+Client 2 Accuracy (Round 67): 0.6450
+Client 3 Accuracy (Round 67): 0.6405
+Global Model, Round 67, Loss: 1.7622, Accuracy: 0.2869
+
+--- FedSGD: Round 68 ---
+Client 1 Accuracy (Round 68): 0.6408
+Client 2 Accuracy (Round 68): 0.6382
+Client 3 Accuracy (Round 68): 0.6387
+Global Model, Round 68, Loss: 1.7599, Accuracy: 0.2893
+
+--- FedSGD: Round 69 ---
+Client 1 Accuracy (Round 69): 0.6550
+Client 2 Accuracy (Round 69): 0.6490
+Client 3 Accuracy (Round 69): 0.6341
+Global Model, Round 69, Loss: 1.7597, Accuracy: 0.2883
+
+--- FedSGD: Round 70 ---
+Client 1 Accuracy (Round 70): 0.6402
+Client 2 Accuracy (Round 70): 0.6337
+Client 3 Accuracy (Round 70): 0.6464
+Global Model, Round 70, Loss: 1.7549, Accuracy: 0.2984
+
+--- FedSGD: Round 71 ---
+Client 1 Accuracy (Round 71): 0.6389
+Client 2 Accuracy (Round 71): 0.6464
+Client 3 Accuracy (Round 71): 0.6252
+Global Model, Round 71, Loss: 1.7483, Accuracy: 0.3040
+
+--- FedSGD: Round 72 ---
+Client 1 Accuracy (Round 72): 0.6569
+Client 2 Accuracy (Round 72): 0.6370
+Client 3 Accuracy (Round 72): 0.6511
+Global Model, Round 72, Loss: 1.7716, Accuracy: 0.2820
+
+--- FedSGD: Round 73 ---
+Client 1 Accuracy (Round 73): 0.6197
+Client 2 Accuracy (Round 73): 0.6350
+Client 3 Accuracy (Round 73): 0.6358
+Global Model, Round 73, Loss: 1.7555, Accuracy: 0.2862
+
+--- FedSGD: Round 74 ---
+Client 1 Accuracy (Round 74): 0.6502
+Client 2 Accuracy (Round 74): 0.6522
+Client 3 Accuracy (Round 74): 0.6398
+Global Model, Round 74, Loss: 1.7677, Accuracy: 0.2850
+
+--- FedSGD: Round 75 ---
+Client 1 Accuracy (Round 75): 0.6616
+Client 2 Accuracy (Round 75): 0.6607
+Client 3 Accuracy (Round 75): 0.6393
+Global Model, Round 75, Loss: 1.7697, Accuracy: 0.2794
+
+--- FedSGD: Round 76 ---
+Client 1 Accuracy (Round 76): 0.6663
+Client 2 Accuracy (Round 76): 0.6680
+Client 3 Accuracy (Round 76): 0.6525
+Global Model, Round 76, Loss: 1.7850, Accuracy: 0.2573
+
+--- FedSGD: Round 77 ---
+Client 1 Accuracy (Round 77): 0.6439
+Client 2 Accuracy (Round 77): 0.6572
+Client 3 Accuracy (Round 77): 0.6515
+Global Model, Round 77, Loss: 1.7459, Accuracy: 0.2718
+
+--- FedSGD: Round 78 ---
+Client 1 Accuracy (Round 78): 0.6612
+Client 2 Accuracy (Round 78): 0.6665
+Client 3 Accuracy (Round 78): 0.6600
+Global Model, Round 78, Loss: 1.7455, Accuracy: 0.2906
+
+--- FedSGD: Round 79 ---
+Client 1 Accuracy (Round 79): 0.6490
+Client 2 Accuracy (Round 79): 0.6489
+Client 3 Accuracy (Round 79): 0.6677
+Global Model, Round 79, Loss: 1.7677, Accuracy: 0.2790
+
+--- FedSGD: Round 80 ---
+Client 1 Accuracy (Round 80): 0.6321
+Client 2 Accuracy (Round 80): 0.6452
+Client 3 Accuracy (Round 80): 0.6494
+Global Model, Round 80, Loss: 1.8004, Accuracy: 0.2459
+
+--- FedSGD: Round 81 ---
+Client 1 Accuracy (Round 81): 0.6422
+Client 2 Accuracy (Round 81): 0.6482
+Client 3 Accuracy (Round 81): 0.6342
+Global Model, Round 81, Loss: 1.7706, Accuracy: 0.2678
+
+--- FedSGD: Round 82 ---
+Client 1 Accuracy (Round 82): 0.6363
+Client 2 Accuracy (Round 82): 0.6536
+Client 3 Accuracy (Round 82): 0.6518
+Global Model, Round 82, Loss: 1.7772, Accuracy: 0.2546
+
+--- FedSGD: Round 83 ---
+Client 1 Accuracy (Round 83): 0.6466
+Client 2 Accuracy (Round 83): 0.6453
+Client 3 Accuracy (Round 83): 0.6299
+Global Model, Round 83, Loss: 1.7678, Accuracy: 0.2681
+
+--- FedSGD: Round 84 ---
+Client 1 Accuracy (Round 84): 0.6647
+Client 2 Accuracy (Round 84): 0.6425
+Client 3 Accuracy (Round 84): 0.6475
+Global Model, Round 84, Loss: 1.7696, Accuracy: 0.2620
+
+--- FedSGD: Round 85 ---
+Client 1 Accuracy (Round 85): 0.6330
+Client 2 Accuracy (Round 85): 0.6556
+Client 3 Accuracy (Round 85): 0.6292
+Global Model, Round 85, Loss: 1.7520, Accuracy: 0.2777
+
+--- FedSGD: Round 86 ---
+Client 1 Accuracy (Round 86): 0.6510
+Client 2 Accuracy (Round 86): 0.6593
+Client 3 Accuracy (Round 86): 0.6408
+Global Model, Round 86, Loss: 1.7468, Accuracy: 0.2832
+
+--- FedSGD: Round 87 ---
+Client 1 Accuracy (Round 87): 0.6542
+Client 2 Accuracy (Round 87): 0.6724
+Client 3 Accuracy (Round 87): 0.6724
+Global Model, Round 87, Loss: 1.7541, Accuracy: 0.2689
+
+--- FedSGD: Round 88 ---
+Client 1 Accuracy (Round 88): 0.6573
+Client 2 Accuracy (Round 88): 0.6566
+Client 3 Accuracy (Round 88): 0.6493
+Global Model, Round 88, Loss: 1.7440, Accuracy: 0.2808
+
+--- FedSGD: Round 89 ---
+Client 1 Accuracy (Round 89): 0.6779
+Client 2 Accuracy (Round 89): 0.6640
+Client 3 Accuracy (Round 89): 0.6513
+Global Model, Round 89, Loss: 1.7650, Accuracy: 0.2649
+
+--- FedSGD: Round 90 ---
+Client 1 Accuracy (Round 90): 0.6638
+Client 2 Accuracy (Round 90): 0.6606
+Client 3 Accuracy (Round 90): 0.6589
+Global Model, Round 90, Loss: 1.7561, Accuracy: 0.2718
+
+--- FedSGD: Round 91 ---
+Client 1 Accuracy (Round 91): 0.6702
+Client 2 Accuracy (Round 91): 0.6718
+Client 3 Accuracy (Round 91): 0.6705
+Global Model, Round 91, Loss: 1.7704, Accuracy: 0.2677
+
+--- FedSGD: Round 92 ---
+Client 1 Accuracy (Round 92): 0.6735
+Client 2 Accuracy (Round 92): 0.6476
+Client 3 Accuracy (Round 92): 0.6402
+Global Model, Round 92, Loss: 1.7681, Accuracy: 0.2656
+
+--- FedSGD: Round 93 ---
+Client 1 Accuracy (Round 93): 0.6482
+Client 2 Accuracy (Round 93): 0.6591
+Client 3 Accuracy (Round 93): 0.6472
+Global Model, Round 93, Loss: 1.7467, Accuracy: 0.2666
+
+--- FedSGD: Round 94 ---
+Client 1 Accuracy (Round 94): 0.6752
+Client 2 Accuracy (Round 94): 0.6766
+Client 3 Accuracy (Round 94): 0.6726
+Global Model, Round 94, Loss: 1.7558, Accuracy: 0.2566
+
+--- FedSGD: Round 95 ---
+Client 1 Accuracy (Round 95): 0.6516
+Client 2 Accuracy (Round 95): 0.6411
+Client 3 Accuracy (Round 95): 0.6613
+Global Model, Round 95, Loss: 1.7462, Accuracy: 0.2708
+
+--- FedSGD: Round 96 ---
+Client 1 Accuracy (Round 96): 0.6489
+Client 2 Accuracy (Round 96): 0.6849
+Client 3 Accuracy (Round 96): 0.6731
+Global Model, Round 96, Loss: 1.7436, Accuracy: 0.2828
+
+--- FedSGD: Round 97 ---
+Client 1 Accuracy (Round 97): 0.6824
+Client 2 Accuracy (Round 97): 0.6740
+Client 3 Accuracy (Round 97): 0.6633
+Global Model, Round 97, Loss: 1.7550, Accuracy: 0.2748
+
+--- FedSGD: Round 98 ---
+Client 1 Accuracy (Round 98): 0.6558
+Client 2 Accuracy (Round 98): 0.6554
+Client 3 Accuracy (Round 98): 0.6605
+Global Model, Round 98, Loss: 1.7395, Accuracy: 0.2841
+
+--- FedSGD: Round 99 ---
+Client 1 Accuracy (Round 99): 0.6720
+Client 2 Accuracy (Round 99): 0.6595
+Client 3 Accuracy (Round 99): 0.6553
+Global Model, Round 99, Loss: 1.7565, Accuracy: 0.2705
+
+--- FedSGD: Round 100 ---
+Client 1 Accuracy (Round 100): 0.6750
+Client 2 Accuracy (Round 100): 0.6697
+Client 3 Accuracy (Round 100): 0.6638
+Global Model, Round 100, Loss: 1.7311, Accuracy: 0.2868
+
+--- FedSGD: Round 101 ---
+Client 1 Accuracy (Round 101): 0.6364
+Client 2 Accuracy (Round 101): 0.6538
+Client 3 Accuracy (Round 101): 0.6609
+Global Model, Round 101, Loss: 1.7164, Accuracy: 0.2903
+
+--- FedSGD: Round 102 ---
+Client 1 Accuracy (Round 102): 0.6763
+Client 2 Accuracy (Round 102): 0.6944
+Client 3 Accuracy (Round 102): 0.6910
+Global Model, Round 102, Loss: 1.7465, Accuracy: 0.2740
+
+--- FedSGD: Round 103 ---
+Client 1 Accuracy (Round 103): 0.6521
+Client 2 Accuracy (Round 103): 0.6650
+Client 3 Accuracy (Round 103): 0.6656
+Global Model, Round 103, Loss: 1.7602, Accuracy: 0.2677
+
+--- FedSGD: Round 104 ---
+Client 1 Accuracy (Round 104): 0.6608
+Client 2 Accuracy (Round 104): 0.6650
+Client 3 Accuracy (Round 104): 0.6645
+Global Model, Round 104, Loss: 1.7330, Accuracy: 0.2851
+
+--- FedSGD: Round 105 ---
+Client 1 Accuracy (Round 105): 0.6734
+Client 2 Accuracy (Round 105): 0.6682
+Client 3 Accuracy (Round 105): 0.6543
+Global Model, Round 105, Loss: 1.7239, Accuracy: 0.2884
+
+--- FedSGD: Round 106 ---
+Client 1 Accuracy (Round 106): 0.6639
+Client 2 Accuracy (Round 106): 0.6753
+Client 3 Accuracy (Round 106): 0.6665
+Global Model, Round 106, Loss: 1.6933, Accuracy: 0.3100
+
+--- FedSGD: Round 107 ---
+Client 1 Accuracy (Round 107): 0.6613
+Client 2 Accuracy (Round 107): 0.6855
+Client 3 Accuracy (Round 107): 0.6743
+Global Model, Round 107, Loss: 1.7317, Accuracy: 0.2771
+
+--- FedSGD: Round 108 ---
+Client 1 Accuracy (Round 108): 0.6756
+Client 2 Accuracy (Round 108): 0.6714
+Client 3 Accuracy (Round 108): 0.6746
+Global Model, Round 108, Loss: 1.7400, Accuracy: 0.2719
+
+--- FedSGD: Round 109 ---
+Client 1 Accuracy (Round 109): 0.6400
+Client 2 Accuracy (Round 109): 0.6688
+Client 3 Accuracy (Round 109): 0.6636
+Global Model, Round 109, Loss: 1.7554, Accuracy: 0.2498
+
+--- FedSGD: Round 110 ---
+Client 1 Accuracy (Round 110): 0.6800
+Client 2 Accuracy (Round 110): 0.6643
+Client 3 Accuracy (Round 110): 0.6628
+Global Model, Round 110, Loss: 1.7259, Accuracy: 0.2785
+
+--- FedSGD: Round 111 ---
+Client 1 Accuracy (Round 111): 0.6795
+Client 2 Accuracy (Round 111): 0.6822
+Client 3 Accuracy (Round 111): 0.6905
+Global Model, Round 111, Loss: 1.7318, Accuracy: 0.2742
+
+--- FedSGD: Round 112 ---
+Client 1 Accuracy (Round 112): 0.6689
+Client 2 Accuracy (Round 112): 0.6787
+Client 3 Accuracy (Round 112): 0.6916
+Global Model, Round 112, Loss: 1.7334, Accuracy: 0.2690
+
+--- FedSGD: Round 113 ---
+Client 1 Accuracy (Round 113): 0.6836
+Client 2 Accuracy (Round 113): 0.6596
+Client 3 Accuracy (Round 113): 0.6776
+Global Model, Round 113, Loss: 1.7178, Accuracy: 0.2823
+
+--- FedSGD: Round 114 ---
+Client 1 Accuracy (Round 114): 0.6854
+Client 2 Accuracy (Round 114): 0.6728
+Client 3 Accuracy (Round 114): 0.6698
+Global Model, Round 114, Loss: 1.7269, Accuracy: 0.2821
+
+--- FedSGD: Round 115 ---
+Client 1 Accuracy (Round 115): 0.6791
+Client 2 Accuracy (Round 115): 0.6691
+Client 3 Accuracy (Round 115): 0.6925
+Global Model, Round 115, Loss: 1.7435, Accuracy: 0.2653
+
+--- FedSGD: Round 116 ---
+Client 1 Accuracy (Round 116): 0.6390
+Client 2 Accuracy (Round 116): 0.6746
+Client 3 Accuracy (Round 116): 0.6731
+Global Model, Round 116, Loss: 1.7491, Accuracy: 0.2603
+
+--- FedSGD: Round 117 ---
+Client 1 Accuracy (Round 117): 0.6837
+Client 2 Accuracy (Round 117): 0.6805
+Client 3 Accuracy (Round 117): 0.6632
+Global Model, Round 117, Loss: 1.7236, Accuracy: 0.2760
+
+--- FedSGD: Round 118 ---
+Client 1 Accuracy (Round 118): 0.6581
+Client 2 Accuracy (Round 118): 0.6571
+Client 3 Accuracy (Round 118): 0.6518
+Global Model, Round 118, Loss: 1.7461, Accuracy: 0.2714
+
+--- FedSGD: Round 119 ---
+Client 1 Accuracy (Round 119): 0.6848
+Client 2 Accuracy (Round 119): 0.6550
+Client 3 Accuracy (Round 119): 0.6735
+Global Model, Round 119, Loss: 1.7563, Accuracy: 0.2708
+
+--- FedSGD: Round 120 ---
+Client 1 Accuracy (Round 120): 0.6756
+Client 2 Accuracy (Round 120): 0.6713
+Client 3 Accuracy (Round 120): 0.6570
+Global Model, Round 120, Loss: 1.7473, Accuracy: 0.2678
+
+--- FedSGD: Round 121 ---
+Client 1 Accuracy (Round 121): 0.6819
+Client 2 Accuracy (Round 121): 0.6803
+Client 3 Accuracy (Round 121): 0.6876
+Global Model, Round 121, Loss: 1.7565, Accuracy: 0.2679
+
+--- FedSGD: Round 122 ---
+Client 1 Accuracy (Round 122): 0.6641
+Client 2 Accuracy (Round 122): 0.6652
+Client 3 Accuracy (Round 122): 0.6688
+Global Model, Round 122, Loss: 1.7407, Accuracy: 0.2693
+
+--- FedSGD: Round 123 ---
+Client 1 Accuracy (Round 123): 0.6659
+Client 2 Accuracy (Round 123): 0.6529
+Client 3 Accuracy (Round 123): 0.6593
+Global Model, Round 123, Loss: 1.7482, Accuracy: 0.2722
+
+--- FedSGD: Round 124 ---
+Client 1 Accuracy (Round 124): 0.6617
+Client 2 Accuracy (Round 124): 0.6573
+Client 3 Accuracy (Round 124): 0.6681
+Global Model, Round 124, Loss: 1.7087, Accuracy: 0.2915
+
+--- FedSGD: Round 125 ---
+Client 1 Accuracy (Round 125): 0.7056
+Client 2 Accuracy (Round 125): 0.6849
+Client 3 Accuracy (Round 125): 0.6775
+Global Model, Round 125, Loss: 1.6951, Accuracy: 0.2971
+
+--- FedSGD: Round 126 ---
+Client 1 Accuracy (Round 126): 0.6973
+Client 2 Accuracy (Round 126): 0.6842
+Client 3 Accuracy (Round 126): 0.6856
+Global Model, Round 126, Loss: 1.7227, Accuracy: 0.2722
+
+--- FedSGD: Round 127 ---
+Client 1 Accuracy (Round 127): 0.6888
+Client 2 Accuracy (Round 127): 0.6761
+Client 3 Accuracy (Round 127): 0.6861
+Global Model, Round 127, Loss: 1.7110, Accuracy: 0.2887
+
+--- FedSGD: Round 128 ---
+Client 1 Accuracy (Round 128): 0.6989
+Client 2 Accuracy (Round 128): 0.7188
+Client 3 Accuracy (Round 128): 0.7074
+Global Model, Round 128, Loss: 1.7313, Accuracy: 0.2661
+
+--- FedSGD: Round 129 ---
+Client 1 Accuracy (Round 129): 0.7007
+Client 2 Accuracy (Round 129): 0.6855
+Client 3 Accuracy (Round 129): 0.6826
+Global Model, Round 129, Loss: 1.7274, Accuracy: 0.2704
+
+--- FedSGD: Round 130 ---
+Client 1 Accuracy (Round 130): 0.6764
+Client 2 Accuracy (Round 130): 0.6610
+Client 3 Accuracy (Round 130): 0.6747
+Global Model, Round 130, Loss: 1.7242, Accuracy: 0.2904
+
+--- FedSGD: Round 131 ---
+Client 1 Accuracy (Round 131): 0.6819
+Client 2 Accuracy (Round 131): 0.7067
+Client 3 Accuracy (Round 131): 0.7014
+Global Model, Round 131, Loss: 1.7502, Accuracy: 0.2533
+
+--- FedSGD: Round 132 ---
+Client 1 Accuracy (Round 132): 0.6963
+Client 2 Accuracy (Round 132): 0.6844
+Client 3 Accuracy (Round 132): 0.6964
+Global Model, Round 132, Loss: 1.7599, Accuracy: 0.2529
+
+--- FedSGD: Round 133 ---
+Client 1 Accuracy (Round 133): 0.6951
+Client 2 Accuracy (Round 133): 0.6993
+Client 3 Accuracy (Round 133): 0.6861
+Global Model, Round 133, Loss: 1.7526, Accuracy: 0.2558
+
+--- FedSGD: Round 134 ---
+Client 1 Accuracy (Round 134): 0.6673
+Client 2 Accuracy (Round 134): 0.6902
+Client 3 Accuracy (Round 134): 0.6741
+Global Model, Round 134, Loss: 1.7364, Accuracy: 0.2626
+
+--- FedSGD: Round 135 ---
+Client 1 Accuracy (Round 135): 0.6913
+Client 2 Accuracy (Round 135): 0.6916
+Client 3 Accuracy (Round 135): 0.7001
+Global Model, Round 135, Loss: 1.7491, Accuracy: 0.2607
+
+--- FedSGD: Round 136 ---
+Client 1 Accuracy (Round 136): 0.6792
+Client 2 Accuracy (Round 136): 0.6633
+Client 3 Accuracy (Round 136): 0.6915
+Global Model, Round 136, Loss: 1.7239, Accuracy: 0.2732
+
+--- FedSGD: Round 137 ---
+Client 1 Accuracy (Round 137): 0.6983
+Client 2 Accuracy (Round 137): 0.7002
+Client 3 Accuracy (Round 137): 0.7004
+Global Model, Round 137, Loss: 1.7243, Accuracy: 0.2740
+
+--- FedSGD: Round 138 ---
+Client 1 Accuracy (Round 138): 0.7209
+Client 2 Accuracy (Round 138): 0.7207
+Client 3 Accuracy (Round 138): 0.7107
+Global Model, Round 138, Loss: 1.7088, Accuracy: 0.2801
+
+--- FedSGD: Round 139 ---
+Client 1 Accuracy (Round 139): 0.6879
+Client 2 Accuracy (Round 139): 0.7138
+Client 3 Accuracy (Round 139): 0.6955
+Global Model, Round 139, Loss: 1.7200, Accuracy: 0.2680
+
+--- FedSGD: Round 140 ---
+Client 1 Accuracy (Round 140): 0.7055
+Client 2 Accuracy (Round 140): 0.7113
+Client 3 Accuracy (Round 140): 0.7248
+Global Model, Round 140, Loss: 1.7124, Accuracy: 0.2761
+
+--- FedSGD: Round 141 ---
+Client 1 Accuracy (Round 141): 0.6712
+Client 2 Accuracy (Round 141): 0.6783
+Client 3 Accuracy (Round 141): 0.6841
+Global Model, Round 141, Loss: 1.6921, Accuracy: 0.2885
+
+--- FedSGD: Round 142 ---
+Client 1 Accuracy (Round 142): 0.7268
+Client 2 Accuracy (Round 142): 0.6977
+Client 3 Accuracy (Round 142): 0.7226
+Global Model, Round 142, Loss: 1.7191, Accuracy: 0.2790
+
+--- FedSGD: Round 143 ---
+Client 1 Accuracy (Round 143): 0.6865
+Client 2 Accuracy (Round 143): 0.6973
+Client 3 Accuracy (Round 143): 0.6810
+Global Model, Round 143, Loss: 1.7238, Accuracy: 0.2669
+
+--- FedSGD: Round 144 ---
+Client 1 Accuracy (Round 144): 0.7131
+Client 2 Accuracy (Round 144): 0.7133
+Client 3 Accuracy (Round 144): 0.7152
+Global Model, Round 144, Loss: 1.7257, Accuracy: 0.2660
+
+--- FedSGD: Round 145 ---
+Client 1 Accuracy (Round 145): 0.7111
+Client 2 Accuracy (Round 145): 0.7129
+Client 3 Accuracy (Round 145): 0.6979
+Global Model, Round 145, Loss: 1.7263, Accuracy: 0.2711
+
+--- FedSGD: Round 146 ---
+Client 1 Accuracy (Round 146): 0.7069
+Client 2 Accuracy (Round 146): 0.7109
+Client 3 Accuracy (Round 146): 0.6891
+Global Model, Round 146, Loss: 1.7113, Accuracy: 0.2908
+
+--- FedSGD: Round 147 ---
+Client 1 Accuracy (Round 147): 0.7295
+Client 2 Accuracy (Round 147): 0.7110
+Client 3 Accuracy (Round 147): 0.7124
+Global Model, Round 147, Loss: 1.7319, Accuracy: 0.2580
+
+--- FedSGD: Round 148 ---
+Client 1 Accuracy (Round 148): 0.6960
+Client 2 Accuracy (Round 148): 0.7089
+Client 3 Accuracy (Round 148): 0.7093
+Global Model, Round 148, Loss: 1.7487, Accuracy: 0.2529
+
+--- FedSGD: Round 149 ---
+Client 1 Accuracy (Round 149): 0.7138
+Client 2 Accuracy (Round 149): 0.7058
+Client 3 Accuracy (Round 149): 0.7047
+Global Model, Round 149, Loss: 1.7278, Accuracy: 0.2557
+
+--- FedSGD: Round 150 ---
+Client 1 Accuracy (Round 150): 0.7081
+Client 2 Accuracy (Round 150): 0.7203
+Client 3 Accuracy (Round 150): 0.6995
+Global Model, Round 150, Loss: 1.7379, Accuracy: 0.2660
+
+Running fedsgd for ResNet-50
+
+--- FedSGD: Round 1 ---
+Client 1 Accuracy (Round 1): 0.1033
+Client 2 Accuracy (Round 1): 0.0976
+Client 3 Accuracy (Round 1): 0.0954
+Global Model, Round 1, Loss: 2.4193, Accuracy: 0.1069
+
+--- FedSGD: Round 2 ---
+Client 1 Accuracy (Round 2): 0.1541
+Client 2 Accuracy (Round 2): 0.1474
+Client 3 Accuracy (Round 2): 0.1492
+Global Model, Round 2, Loss: 2.2898, Accuracy: 0.1381
+
+--- FedSGD: Round 3 ---
+Client 1 Accuracy (Round 3): 0.1858
+Client 2 Accuracy (Round 3): 0.1762
+Client 3 Accuracy (Round 3): 0.1799
+Global Model, Round 3, Loss: 2.1949, Accuracy: 0.1739
+
+--- FedSGD: Round 4 ---
+Client 1 Accuracy (Round 4): 0.2666
+Client 2 Accuracy (Round 4): 0.2708
+Client 3 Accuracy (Round 4): 0.2740
+Global Model, Round 4, Loss: 2.2054, Accuracy: 0.1201
+
+--- FedSGD: Round 5 ---
+Client 1 Accuracy (Round 5): 0.3144
+Client 2 Accuracy (Round 5): 0.3131
+Client 3 Accuracy (Round 5): 0.3201
+Global Model, Round 5, Loss: 2.1230, Accuracy: 0.1584
+
+--- FedSGD: Round 6 ---
+Client 1 Accuracy (Round 6): 0.3840
+Client 2 Accuracy (Round 6): 0.3744
+Client 3 Accuracy (Round 6): 0.3832
+Global Model, Round 6, Loss: 2.0713, Accuracy: 0.1974
+
+--- FedSGD: Round 7 ---
+Client 1 Accuracy (Round 7): 0.4169
+Client 2 Accuracy (Round 7): 0.4050
+Client 3 Accuracy (Round 7): 0.4172
+Global Model, Round 7, Loss: 2.0021, Accuracy: 0.2638
+
+--- FedSGD: Round 8 ---
+Client 1 Accuracy (Round 8): 0.4662
+Client 2 Accuracy (Round 8): 0.4568
+Client 3 Accuracy (Round 8): 0.4767
+Global Model, Round 8, Loss: 1.9697, Accuracy: 0.2633
+
+--- FedSGD: Round 9 ---
+Client 1 Accuracy (Round 9): 0.4793
+Client 2 Accuracy (Round 9): 0.4537
+Client 3 Accuracy (Round 9): 0.4707
+Global Model, Round 9, Loss: 1.9035, Accuracy: 0.2956
+
+--- FedSGD: Round 10 ---
+Client 1 Accuracy (Round 10): 0.5180
+Client 2 Accuracy (Round 10): 0.4945
+Client 3 Accuracy (Round 10): 0.4980
+Global Model, Round 10, Loss: 1.9753, Accuracy: 0.2307
+
+--- FedSGD: Round 11 ---
+Client 1 Accuracy (Round 11): 0.4955
+Client 2 Accuracy (Round 11): 0.4874
+Client 3 Accuracy (Round 11): 0.5149
+Global Model, Round 11, Loss: 1.8406, Accuracy: 0.3088
+
+--- FedSGD: Round 12 ---
+Client 1 Accuracy (Round 12): 0.5366
+Client 2 Accuracy (Round 12): 0.5472
+Client 3 Accuracy (Round 12): 0.5515
+Global Model, Round 12, Loss: 1.8603, Accuracy: 0.2958
+
+--- FedSGD: Round 13 ---
+Client 1 Accuracy (Round 13): 0.5496
+Client 2 Accuracy (Round 13): 0.5391
+Client 3 Accuracy (Round 13): 0.5449
+Global Model, Round 13, Loss: 1.8296, Accuracy: 0.3094
+
+--- FedSGD: Round 14 ---
+Client 1 Accuracy (Round 14): 0.5644
+Client 2 Accuracy (Round 14): 0.5576
+Client 3 Accuracy (Round 14): 0.5651
+Global Model, Round 14, Loss: 1.7439, Accuracy: 0.3435
+
+--- FedSGD: Round 15 ---
+Client 1 Accuracy (Round 15): 0.5906
+Client 2 Accuracy (Round 15): 0.5849
+Client 3 Accuracy (Round 15): 0.5960
+Global Model, Round 15, Loss: 1.7485, Accuracy: 0.3496
+
+--- FedSGD: Round 16 ---
+Client 1 Accuracy (Round 16): 0.5879
+Client 2 Accuracy (Round 16): 0.5898
+Client 3 Accuracy (Round 16): 0.5848
+Global Model, Round 16, Loss: 1.7373, Accuracy: 0.3543
+
+--- FedSGD: Round 17 ---
+Client 1 Accuracy (Round 17): 0.6118
+Client 2 Accuracy (Round 17): 0.5999
+Client 3 Accuracy (Round 17): 0.6154
+Global Model, Round 17, Loss: 1.6808, Accuracy: 0.3711
+
+--- FedSGD: Round 18 ---
+Client 1 Accuracy (Round 18): 0.5825
+Client 2 Accuracy (Round 18): 0.5902
+Client 3 Accuracy (Round 18): 0.6070
+Global Model, Round 18, Loss: 1.6628, Accuracy: 0.3672
+
+--- FedSGD: Round 19 ---
+Client 1 Accuracy (Round 19): 0.6060
+Client 2 Accuracy (Round 19): 0.6129
+Client 3 Accuracy (Round 19): 0.6069
+Global Model, Round 19, Loss: 1.6506, Accuracy: 0.3731
+
+--- FedSGD: Round 20 ---
+Client 1 Accuracy (Round 20): 0.6231
+Client 2 Accuracy (Round 20): 0.6092
+Client 3 Accuracy (Round 20): 0.6263
+Global Model, Round 20, Loss: 1.6273, Accuracy: 0.3840
+
+--- FedSGD: Round 21 ---
+Client 1 Accuracy (Round 21): 0.6224
+Client 2 Accuracy (Round 21): 0.6116
+Client 3 Accuracy (Round 21): 0.6350
+Global Model, Round 21, Loss: 1.6026, Accuracy: 0.4098
+
+--- FedSGD: Round 22 ---
+Client 1 Accuracy (Round 22): 0.6379
+Client 2 Accuracy (Round 22): 0.6389
+Client 3 Accuracy (Round 22): 0.6230
+Global Model, Round 22, Loss: 1.6067, Accuracy: 0.3921
+
+--- FedSGD: Round 23 ---
+Client 1 Accuracy (Round 23): 0.6531
+Client 2 Accuracy (Round 23): 0.6580
+Client 3 Accuracy (Round 23): 0.6430
+Global Model, Round 23, Loss: 1.5525, Accuracy: 0.4111
+
+--- FedSGD: Round 24 ---
+Client 1 Accuracy (Round 24): 0.6351
+Client 2 Accuracy (Round 24): 0.6560
+Client 3 Accuracy (Round 24): 0.6639
+Global Model, Round 24, Loss: 1.5255, Accuracy: 0.4198
+
+--- FedSGD: Round 25 ---
+Client 1 Accuracy (Round 25): 0.6572
+Client 2 Accuracy (Round 25): 0.6665
+Client 3 Accuracy (Round 25): 0.6488
+Global Model, Round 25, Loss: 1.5701, Accuracy: 0.4209
+
+--- FedSGD: Round 26 ---
+Client 1 Accuracy (Round 26): 0.6691
+Client 2 Accuracy (Round 26): 0.6787
+Client 3 Accuracy (Round 26): 0.6771
+Global Model, Round 26, Loss: 1.5720, Accuracy: 0.4576
+
+--- FedSGD: Round 27 ---
+Client 1 Accuracy (Round 27): 0.6644
+Client 2 Accuracy (Round 27): 0.6622
+Client 3 Accuracy (Round 27): 0.6758
+Global Model, Round 27, Loss: 1.5276, Accuracy: 0.4397
+
+--- FedSGD: Round 28 ---
+Client 1 Accuracy (Round 28): 0.6771
+Client 2 Accuracy (Round 28): 0.6753
+Client 3 Accuracy (Round 28): 0.6674
+Global Model, Round 28, Loss: 1.4636, Accuracy: 0.4747
+
+--- FedSGD: Round 29 ---
+Client 1 Accuracy (Round 29): 0.6564
+Client 2 Accuracy (Round 29): 0.6721
+Client 3 Accuracy (Round 29): 0.6594
+Global Model, Round 29, Loss: 1.4973, Accuracy: 0.4611
+
+--- FedSGD: Round 30 ---
+Client 1 Accuracy (Round 30): 0.6643
+Client 2 Accuracy (Round 30): 0.6744
+Client 3 Accuracy (Round 30): 0.6771
+Global Model, Round 30, Loss: 1.4947, Accuracy: 0.4710
+
+--- FedSGD: Round 31 ---
+Client 1 Accuracy (Round 31): 0.6729
+Client 2 Accuracy (Round 31): 0.6853
+Client 3 Accuracy (Round 31): 0.6676
+Global Model, Round 31, Loss: 1.5161, Accuracy: 0.4457
+
+--- FedSGD: Round 32 ---
+Client 1 Accuracy (Round 32): 0.6806
+Client 2 Accuracy (Round 32): 0.6798
+Client 3 Accuracy (Round 32): 0.6865
+Global Model, Round 32, Loss: 1.5041, Accuracy: 0.4522
+
+--- FedSGD: Round 33 ---
+Client 1 Accuracy (Round 33): 0.6826
+Client 2 Accuracy (Round 33): 0.6875
+Client 3 Accuracy (Round 33): 0.6724
+Global Model, Round 33, Loss: 1.4815, Accuracy: 0.4792
+
+--- FedSGD: Round 34 ---
+Client 1 Accuracy (Round 34): 0.6894
+Client 2 Accuracy (Round 34): 0.6804
+Client 3 Accuracy (Round 34): 0.6775
+Global Model, Round 34, Loss: 1.4793, Accuracy: 0.4739
+
+--- FedSGD: Round 35 ---
+Client 1 Accuracy (Round 35): 0.7077
+Client 2 Accuracy (Round 35): 0.6943
+Client 3 Accuracy (Round 35): 0.6906
+Global Model, Round 35, Loss: 1.5174, Accuracy: 0.4361
+
+--- FedSGD: Round 36 ---
+Client 1 Accuracy (Round 36): 0.6814
+Client 2 Accuracy (Round 36): 0.6645
+Client 3 Accuracy (Round 36): 0.6847
+Global Model, Round 36, Loss: 1.4478, Accuracy: 0.4824
+
+--- FedSGD: Round 37 ---
+Client 1 Accuracy (Round 37): 0.7002
+Client 2 Accuracy (Round 37): 0.6993
+Client 3 Accuracy (Round 37): 0.6790
+Global Model, Round 37, Loss: 1.4615, Accuracy: 0.4639
+
+--- FedSGD: Round 38 ---
+Client 1 Accuracy (Round 38): 0.7003
+Client 2 Accuracy (Round 38): 0.6954
+Client 3 Accuracy (Round 38): 0.6905
+Global Model, Round 38, Loss: 1.4756, Accuracy: 0.4464
+
+--- FedSGD: Round 39 ---
+Client 1 Accuracy (Round 39): 0.6832
+Client 2 Accuracy (Round 39): 0.7010
+Client 3 Accuracy (Round 39): 0.7019
+Global Model, Round 39, Loss: 1.4797, Accuracy: 0.4470
+
+--- FedSGD: Round 40 ---
+Client 1 Accuracy (Round 40): 0.6861
+Client 2 Accuracy (Round 40): 0.6879
+Client 3 Accuracy (Round 40): 0.7088
+Global Model, Round 40, Loss: 1.4485, Accuracy: 0.4891
+
+--- FedSGD: Round 41 ---
+Client 1 Accuracy (Round 41): 0.7066
+Client 2 Accuracy (Round 41): 0.7194
+Client 3 Accuracy (Round 41): 0.7174
+Global Model, Round 41, Loss: 1.4595, Accuracy: 0.4805
+
+--- FedSGD: Round 42 ---
+Client 1 Accuracy (Round 42): 0.7062
+Client 2 Accuracy (Round 42): 0.7022
+Client 3 Accuracy (Round 42): 0.7136
+Global Model, Round 42, Loss: 1.4447, Accuracy: 0.4957
+
+--- FedSGD: Round 43 ---
+Client 1 Accuracy (Round 43): 0.7029
+Client 2 Accuracy (Round 43): 0.7001
+Client 3 Accuracy (Round 43): 0.6915
+Global Model, Round 43, Loss: 1.4447, Accuracy: 0.4896
+
+--- FedSGD: Round 44 ---
+Client 1 Accuracy (Round 44): 0.7224
+Client 2 Accuracy (Round 44): 0.7166
+Client 3 Accuracy (Round 44): 0.7105
+Global Model, Round 44, Loss: 1.4533, Accuracy: 0.4830
+
+--- FedSGD: Round 45 ---
+Client 1 Accuracy (Round 45): 0.7210
+Client 2 Accuracy (Round 45): 0.7106
+Client 3 Accuracy (Round 45): 0.6949
+Global Model, Round 45, Loss: 1.4332, Accuracy: 0.4879
+
+--- FedSGD: Round 46 ---
+Client 1 Accuracy (Round 46): 0.7141
+Client 2 Accuracy (Round 46): 0.7248
+Client 3 Accuracy (Round 46): 0.7066
+Global Model, Round 46, Loss: 1.4361, Accuracy: 0.4945
+
+--- FedSGD: Round 47 ---
+Client 1 Accuracy (Round 47): 0.7269
+Client 2 Accuracy (Round 47): 0.7356
+Client 3 Accuracy (Round 47): 0.7282
+Global Model, Round 47, Loss: 1.4885, Accuracy: 0.4698
+
+--- FedSGD: Round 48 ---
+Client 1 Accuracy (Round 48): 0.7143
+Client 2 Accuracy (Round 48): 0.7247
+Client 3 Accuracy (Round 48): 0.7228
+Global Model, Round 48, Loss: 1.5084, Accuracy: 0.4916
+
+--- FedSGD: Round 49 ---
+Client 1 Accuracy (Round 49): 0.7412
+Client 2 Accuracy (Round 49): 0.7502
+Client 3 Accuracy (Round 49): 0.7163
+Global Model, Round 49, Loss: 1.4660, Accuracy: 0.4921
+
+--- FedSGD: Round 50 ---
+Client 1 Accuracy (Round 50): 0.7304
+Client 2 Accuracy (Round 50): 0.7397
+Client 3 Accuracy (Round 50): 0.7349
+Global Model, Round 50, Loss: 1.4914, Accuracy: 0.5021
+
+--- FedSGD: Round 51 ---
+Client 1 Accuracy (Round 51): 0.7231
+Client 2 Accuracy (Round 51): 0.7373
+Client 3 Accuracy (Round 51): 0.7141
+Global Model, Round 51, Loss: 1.4887, Accuracy: 0.4927
+
+--- FedSGD: Round 52 ---
+Client 1 Accuracy (Round 52): 0.7428
+Client 2 Accuracy (Round 52): 0.7457
+Client 3 Accuracy (Round 52): 0.7413
+Global Model, Round 52, Loss: 1.4500, Accuracy: 0.4944
+
+--- FedSGD: Round 53 ---
+Client 1 Accuracy (Round 53): 0.7131
+Client 2 Accuracy (Round 53): 0.7270
+Client 3 Accuracy (Round 53): 0.7418
+Global Model, Round 53, Loss: 1.5055, Accuracy: 0.4706
+
+--- FedSGD: Round 54 ---
+Client 1 Accuracy (Round 54): 0.7367
+Client 2 Accuracy (Round 54): 0.7459
+Client 3 Accuracy (Round 54): 0.7316
+Global Model, Round 54, Loss: 1.4777, Accuracy: 0.4752
+
+--- FedSGD: Round 55 ---
+Client 1 Accuracy (Round 55): 0.7493
+Client 2 Accuracy (Round 55): 0.7468
+Client 3 Accuracy (Round 55): 0.7304
+Global Model, Round 55, Loss: 1.4831, Accuracy: 0.4986
+
+--- FedSGD: Round 56 ---
+Client 1 Accuracy (Round 56): 0.7402
+Client 2 Accuracy (Round 56): 0.7497
+Client 3 Accuracy (Round 56): 0.7408
+Global Model, Round 56, Loss: 1.4864, Accuracy: 0.5112
+
+--- FedSGD: Round 57 ---
+Client 1 Accuracy (Round 57): 0.7575
+Client 2 Accuracy (Round 57): 0.7590
+Client 3 Accuracy (Round 57): 0.7738
+Global Model, Round 57, Loss: 1.4942, Accuracy: 0.5033
+
+--- FedSGD: Round 58 ---
+Client 1 Accuracy (Round 58): 0.7475
+Client 2 Accuracy (Round 58): 0.7599
+Client 3 Accuracy (Round 58): 0.7640
+Global Model, Round 58, Loss: 1.4719, Accuracy: 0.5017
+
+--- FedSGD: Round 59 ---
+Client 1 Accuracy (Round 59): 0.7581
+Client 2 Accuracy (Round 59): 0.7532
+Client 3 Accuracy (Round 59): 0.7709
+Global Model, Round 59, Loss: 1.4703, Accuracy: 0.4873
+
+--- FedSGD: Round 60 ---
+Client 1 Accuracy (Round 60): 0.7638
+Client 2 Accuracy (Round 60): 0.7724
+Client 3 Accuracy (Round 60): 0.7405
+Global Model, Round 60, Loss: 1.4957, Accuracy: 0.5033
+
+--- FedSGD: Round 61 ---
+Client 1 Accuracy (Round 61): 0.7427
+Client 2 Accuracy (Round 61): 0.7506
+Client 3 Accuracy (Round 61): 0.7440
+Global Model, Round 61, Loss: 1.5056, Accuracy: 0.5047
+
+--- FedSGD: Round 62 ---
+Client 1 Accuracy (Round 62): 0.7732
+Client 2 Accuracy (Round 62): 0.7692
+Client 3 Accuracy (Round 62): 0.7634
+Global Model, Round 62, Loss: 1.4558, Accuracy: 0.5119
+
+--- FedSGD: Round 63 ---
+Client 1 Accuracy (Round 63): 0.7733
+Client 2 Accuracy (Round 63): 0.7500
+Client 3 Accuracy (Round 63): 0.7537
+Global Model, Round 63, Loss: 1.4408, Accuracy: 0.5000
+
+--- FedSGD: Round 64 ---
+Client 1 Accuracy (Round 64): 0.7678
+Client 2 Accuracy (Round 64): 0.7590
+Client 3 Accuracy (Round 64): 0.7540
+Global Model, Round 64, Loss: 1.4675, Accuracy: 0.4840
+
+--- FedSGD: Round 65 ---
+Client 1 Accuracy (Round 65): 0.7531
+Client 2 Accuracy (Round 65): 0.7552
+Client 3 Accuracy (Round 65): 0.7472
+Global Model, Round 65, Loss: 1.4482, Accuracy: 0.4900
+
+--- FedSGD: Round 66 ---
+Client 1 Accuracy (Round 66): 0.7509
+Client 2 Accuracy (Round 66): 0.7600
+Client 3 Accuracy (Round 66): 0.7650
+Global Model, Round 66, Loss: 1.4407, Accuracy: 0.5174
+
+--- FedSGD: Round 67 ---
+Client 1 Accuracy (Round 67): 0.7715
+Client 2 Accuracy (Round 67): 0.7739
+Client 3 Accuracy (Round 67): 0.7687
+Global Model, Round 67, Loss: 1.4723, Accuracy: 0.4998
+
+--- FedSGD: Round 68 ---
+Client 1 Accuracy (Round 68): 0.7311
+Client 2 Accuracy (Round 68): 0.7508
+Client 3 Accuracy (Round 68): 0.7420
+Global Model, Round 68, Loss: 1.4820, Accuracy: 0.5037
+
+--- FedSGD: Round 69 ---
+Client 1 Accuracy (Round 69): 0.7796
+Client 2 Accuracy (Round 69): 0.7595
+Client 3 Accuracy (Round 69): 0.7549
+Global Model, Round 69, Loss: 1.5143, Accuracy: 0.4979
+
+--- FedSGD: Round 70 ---
+Client 1 Accuracy (Round 70): 0.7698
+Client 2 Accuracy (Round 70): 0.7569
+Client 3 Accuracy (Round 70): 0.7527
+Global Model, Round 70, Loss: 1.4769, Accuracy: 0.5018
+
+--- FedSGD: Round 71 ---
+Client 1 Accuracy (Round 71): 0.7639
+Client 2 Accuracy (Round 71): 0.7674
+Client 3 Accuracy (Round 71): 0.7491
+Global Model, Round 71, Loss: 1.4323, Accuracy: 0.5132
+
+--- FedSGD: Round 72 ---
+Client 1 Accuracy (Round 72): 0.7776
+Client 2 Accuracy (Round 72): 0.7626
+Client 3 Accuracy (Round 72): 0.7517
+Global Model, Round 72, Loss: 1.4689, Accuracy: 0.4989
+
+--- FedSGD: Round 73 ---
+Client 1 Accuracy (Round 73): 0.7732
+Client 2 Accuracy (Round 73): 0.7720
+Client 3 Accuracy (Round 73): 0.7474
+Global Model, Round 73, Loss: 1.4664, Accuracy: 0.5012
+
+--- FedSGD: Round 74 ---
+Client 1 Accuracy (Round 74): 0.7714
+Client 2 Accuracy (Round 74): 0.7751
+Client 3 Accuracy (Round 74): 0.7527
+Global Model, Round 74, Loss: 1.4561, Accuracy: 0.5012
+
+--- FedSGD: Round 75 ---
+Client 1 Accuracy (Round 75): 0.7727
+Client 2 Accuracy (Round 75): 0.7759
+Client 3 Accuracy (Round 75): 0.7662
+Global Model, Round 75, Loss: 1.4779, Accuracy: 0.5010
+
+--- FedSGD: Round 76 ---
+Client 1 Accuracy (Round 76): 0.7696
+Client 2 Accuracy (Round 76): 0.7806
+Client 3 Accuracy (Round 76): 0.7736
+Global Model, Round 76, Loss: 1.4891, Accuracy: 0.5036
+
+--- FedSGD: Round 77 ---
+Client 1 Accuracy (Round 77): 0.7671
+Client 2 Accuracy (Round 77): 0.7708
+Client 3 Accuracy (Round 77): 0.7437
+Global Model, Round 77, Loss: 1.5259, Accuracy: 0.4980
+
+--- FedSGD: Round 78 ---
+Client 1 Accuracy (Round 78): 0.7632
+Client 2 Accuracy (Round 78): 0.7602
+Client 3 Accuracy (Round 78): 0.7489
+Global Model, Round 78, Loss: 1.4913, Accuracy: 0.5081
+
+--- FedSGD: Round 79 ---
+Client 1 Accuracy (Round 79): 0.7789
+Client 2 Accuracy (Round 79): 0.7811
+Client 3 Accuracy (Round 79): 0.7618
+Global Model, Round 79, Loss: 1.4872, Accuracy: 0.5173
+
+--- FedSGD: Round 80 ---
+Client 1 Accuracy (Round 80): 0.7829
+Client 2 Accuracy (Round 80): 0.7742
+Client 3 Accuracy (Round 80): 0.7779
+Global Model, Round 80, Loss: 1.5418, Accuracy: 0.5061
+
+--- FedSGD: Round 81 ---
+Client 1 Accuracy (Round 81): 0.7691
+Client 2 Accuracy (Round 81): 0.7688
+Client 3 Accuracy (Round 81): 0.7649
+Global Model, Round 81, Loss: 1.5331, Accuracy: 0.4830
+
+--- FedSGD: Round 82 ---
+Client 1 Accuracy (Round 82): 0.7459
+Client 2 Accuracy (Round 82): 0.7714
+Client 3 Accuracy (Round 82): 0.7638
+Global Model, Round 82, Loss: 1.5001, Accuracy: 0.4967
+
+--- FedSGD: Round 83 ---
+Client 1 Accuracy (Round 83): 0.7807
+Client 2 Accuracy (Round 83): 0.7790
+Client 3 Accuracy (Round 83): 0.7494
+Global Model, Round 83, Loss: 1.5064, Accuracy: 0.4930
+
+--- FedSGD: Round 84 ---
+Client 1 Accuracy (Round 84): 0.7772
+Client 2 Accuracy (Round 84): 0.7782
+Client 3 Accuracy (Round 84): 0.7740
+Global Model, Round 84, Loss: 1.5593, Accuracy: 0.4896
+
+--- FedSGD: Round 85 ---
+Client 1 Accuracy (Round 85): 0.7885
+Client 2 Accuracy (Round 85): 0.7743
+Client 3 Accuracy (Round 85): 0.7715
+Global Model, Round 85, Loss: 1.5800, Accuracy: 0.4745
+
+--- FedSGD: Round 86 ---
+Client 1 Accuracy (Round 86): 0.7688
+Client 2 Accuracy (Round 86): 0.7751
+Client 3 Accuracy (Round 86): 0.7580
+Global Model, Round 86, Loss: 1.5295, Accuracy: 0.5111
+
+--- FedSGD: Round 87 ---
+Client 1 Accuracy (Round 87): 0.7843
+Client 2 Accuracy (Round 87): 0.7756
+Client 3 Accuracy (Round 87): 0.7775
+Global Model, Round 87, Loss: 1.5033, Accuracy: 0.5093
+
+--- FedSGD: Round 88 ---
+Client 1 Accuracy (Round 88): 0.7911
+Client 2 Accuracy (Round 88): 0.7896
+Client 3 Accuracy (Round 88): 0.7824
+Global Model, Round 88, Loss: 1.4980, Accuracy: 0.4941
+
+--- FedSGD: Round 89 ---
+Client 1 Accuracy (Round 89): 0.7832
+Client 2 Accuracy (Round 89): 0.7818
+Client 3 Accuracy (Round 89): 0.7866
+Global Model, Round 89, Loss: 1.5135, Accuracy: 0.5106
+
+--- FedSGD: Round 90 ---
+Client 1 Accuracy (Round 90): 0.8034
+Client 2 Accuracy (Round 90): 0.7968
+Client 3 Accuracy (Round 90): 0.7836
+Global Model, Round 90, Loss: 1.5636, Accuracy: 0.5034
+
+--- FedSGD: Round 91 ---
+Client 1 Accuracy (Round 91): 0.7766
+Client 2 Accuracy (Round 91): 0.7724
+Client 3 Accuracy (Round 91): 0.7785
+Global Model, Round 91, Loss: 1.5282, Accuracy: 0.5186
+
+--- FedSGD: Round 92 ---
+Client 1 Accuracy (Round 92): 0.8004
+Client 2 Accuracy (Round 92): 0.7870
+Client 3 Accuracy (Round 92): 0.7826
+Global Model, Round 92, Loss: 1.5224, Accuracy: 0.5116
+
+--- FedSGD: Round 93 ---
+Client 1 Accuracy (Round 93): 0.7891
+Client 2 Accuracy (Round 93): 0.7850
+Client 3 Accuracy (Round 93): 0.7790
+Global Model, Round 93, Loss: 1.5031, Accuracy: 0.5147
+
+--- FedSGD: Round 94 ---
+Client 1 Accuracy (Round 94): 0.7909
+Client 2 Accuracy (Round 94): 0.7796
+Client 3 Accuracy (Round 94): 0.7797
+Global Model, Round 94, Loss: 1.5302, Accuracy: 0.5004
+
+--- FedSGD: Round 95 ---
+Client 1 Accuracy (Round 95): 0.7978
+Client 2 Accuracy (Round 95): 0.7882
+Client 3 Accuracy (Round 95): 0.7718
+Global Model, Round 95, Loss: 1.5283, Accuracy: 0.4975
+
+--- FedSGD: Round 96 ---
+Client 1 Accuracy (Round 96): 0.7853
+Client 2 Accuracy (Round 96): 0.7799
+Client 3 Accuracy (Round 96): 0.7754
+Global Model, Round 96, Loss: 1.4987, Accuracy: 0.5137
+
+--- FedSGD: Round 97 ---
+Client 1 Accuracy (Round 97): 0.8109
+Client 2 Accuracy (Round 97): 0.7903
+Client 3 Accuracy (Round 97): 0.7883
+Global Model, Round 97, Loss: 1.4806, Accuracy: 0.5163
+
+--- FedSGD: Round 98 ---

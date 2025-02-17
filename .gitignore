@@ -1,0 +1,11 @@
+# Ignore the data/ directory and all its contents
+data/
+
+# Ignore files named nithintest.* (any file extension)
+nithintest.*
+
+# Ignore the nithin_env/ directory and all its contents
+nithin_env/
+
+
+*.sh

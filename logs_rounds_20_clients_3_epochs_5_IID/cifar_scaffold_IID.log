@@ -1,0 +1,793 @@
+Federated Learning Configuration:
+  Algorithm: scaffold
+  Dataset: CIFAR
+  Distribution: IID
+  Number of Clients: 3
+  Rounds: 20
+  Local Epochs: 5
+Files already downloaded and verified
+Files already downloaded and verified
+
+Running scaffold for ResNet-18
+
+--- SCAFFOLD: Round 1 ---
+Client 1, Epoch 1/5, Loss: 666.3879
+Client 1, Epoch 2/5, Loss: 428.2363
+Client 1, Epoch 3/5, Loss: 323.7185
+Client 1, Epoch 4/5, Loss: 256.0560
+Client 1, Epoch 5/5, Loss: 204.6620
+Client 2, Epoch 1/5, Loss: 664.8367
+Client 2, Epoch 2/5, Loss: 424.5498
+Client 2, Epoch 3/5, Loss: 326.4166
+Client 2, Epoch 4/5, Loss: 256.8893
+Client 2, Epoch 5/5, Loss: 199.2229
+Client 3, Epoch 1/5, Loss: 662.6691
+Client 3, Epoch 2/5, Loss: 420.3746
+Client 3, Epoch 3/5, Loss: 321.2221
+Client 3, Epoch 4/5, Loss: 245.5736
+Client 3, Epoch 5/5, Loss: 193.7497
+Global Model, Round 1, Loss: 0.6473, Accuracy: 0.77
+
+--- SCAFFOLD: Round 2 ---
+Client 1, Epoch 1/5, Loss: 327.2806
+Client 1, Epoch 2/5, Loss: 229.9875
+Client 1, Epoch 3/5, Loss: 172.3423
+Client 1, Epoch 4/5, Loss: 136.0606
+Client 1, Epoch 5/5, Loss: 114.4757
+Client 2, Epoch 1/5, Loss: 326.3529
+Client 2, Epoch 2/5, Loss: 230.2924
+Client 2, Epoch 3/5, Loss: 171.7581
+Client 2, Epoch 4/5, Loss: 127.4986
+Client 2, Epoch 5/5, Loss: 105.2812
+Client 3, Epoch 1/5, Loss: 323.1434
+Client 3, Epoch 2/5, Loss: 222.0597
+Client 3, Epoch 3/5, Loss: 166.8397
+Client 3, Epoch 4/5, Loss: 129.3664
+Client 3, Epoch 5/5, Loss: 102.6354
+Global Model, Round 2, Loss: 0.6240, Accuracy: 0.82
+
+--- SCAFFOLD: Round 3 ---
+Client 1, Epoch 1/5, Loss: 217.7431
+Client 1, Epoch 2/5, Loss: 137.6084
+Client 1, Epoch 3/5, Loss: 106.2333
+Client 1, Epoch 4/5, Loss: 79.4649
+Client 1, Epoch 5/5, Loss: 63.2559
+Client 2, Epoch 1/5, Loss: 212.9154
+Client 2, Epoch 2/5, Loss: 136.7215
+Client 2, Epoch 3/5, Loss: 100.3905
+Client 2, Epoch 4/5, Loss: 81.0062
+Client 2, Epoch 5/5, Loss: 65.9610
+Client 3, Epoch 1/5, Loss: 219.2726
+Client 3, Epoch 2/5, Loss: 132.2915
+Client 3, Epoch 3/5, Loss: 99.4430
+Client 3, Epoch 4/5, Loss: 80.7739
+Client 3, Epoch 5/5, Loss: 65.9913
+Global Model, Round 3, Loss: 0.6620, Accuracy: 0.83
+
+--- SCAFFOLD: Round 4 ---
+Client 1, Epoch 1/5, Loss: 157.0640
+Client 1, Epoch 2/5, Loss: 95.1745
+Client 1, Epoch 3/5, Loss: 73.1501
+Client 1, Epoch 4/5, Loss: 55.0128
+Client 1, Epoch 5/5, Loss: 45.3652
+Client 2, Epoch 1/5, Loss: 147.0729
+Client 2, Epoch 2/5, Loss: 96.3832
+Client 2, Epoch 3/5, Loss: 69.0687
+Client 2, Epoch 4/5, Loss: 50.9560
+Client 2, Epoch 5/5, Loss: 44.0014
+Client 3, Epoch 1/5, Loss: 151.7554
+Client 3, Epoch 2/5, Loss: 87.0666
+Client 3, Epoch 3/5, Loss: 67.0793
+Client 3, Epoch 4/5, Loss: 60.7429
+Client 3, Epoch 5/5, Loss: 46.5175
+Global Model, Round 4, Loss: 0.6681, Accuracy: 0.83
+
+--- SCAFFOLD: Round 5 ---
+Client 1, Epoch 1/5, Loss: 107.2224
+Client 1, Epoch 2/5, Loss: 73.7950
+Client 1, Epoch 3/5, Loss: 50.8784
+Client 1, Epoch 4/5, Loss: 44.0066
+Client 1, Epoch 5/5, Loss: 39.2713
+Client 2, Epoch 1/5, Loss: 108.0440
+Client 2, Epoch 2/5, Loss: 69.8222
+Client 2, Epoch 3/5, Loss: 48.3314
+Client 2, Epoch 4/5, Loss: 42.7555
+Client 2, Epoch 5/5, Loss: 39.1855
+Client 3, Epoch 1/5, Loss: 101.9953
+Client 3, Epoch 2/5, Loss: 71.8060
+Client 3, Epoch 3/5, Loss: 53.3949
+Client 3, Epoch 4/5, Loss: 42.2015
+Client 3, Epoch 5/5, Loss: 35.3196
+Global Model, Round 5, Loss: 0.6817, Accuracy: 0.83
+
+--- SCAFFOLD: Round 6 ---
+Client 1, Epoch 1/5, Loss: 72.5540
+Client 1, Epoch 2/5, Loss: 58.7886
+Client 1, Epoch 3/5, Loss: 45.0005
+Client 1, Epoch 4/5, Loss: 34.5811
+Client 1, Epoch 5/5, Loss: 27.5990
+Client 2, Epoch 1/5, Loss: 69.4855
+Client 2, Epoch 2/5, Loss: 48.5746
+Client 2, Epoch 3/5, Loss: 45.3547
+Client 2, Epoch 4/5, Loss: 34.5508
+Client 2, Epoch 5/5, Loss: 32.0246
+Client 3, Epoch 1/5, Loss: 78.7304
+Client 3, Epoch 2/5, Loss: 55.2544
+Client 3, Epoch 3/5, Loss: 41.9529
+Client 3, Epoch 4/5, Loss: 34.0915
+Client 3, Epoch 5/5, Loss: 27.1152
+Global Model, Round 6, Loss: 0.7008, Accuracy: 0.84
+
+--- SCAFFOLD: Round 7 ---
+Client 1, Epoch 1/5, Loss: 50.6028
+Client 1, Epoch 2/5, Loss: 41.7941
+Client 1, Epoch 3/5, Loss: 36.8927
+Client 1, Epoch 4/5, Loss: 33.2022
+Client 1, Epoch 5/5, Loss: 27.8677
+Client 2, Epoch 1/5, Loss: 49.8921
+Client 2, Epoch 2/5, Loss: 44.4836
+Client 2, Epoch 3/5, Loss: 35.6211
+Client 2, Epoch 4/5, Loss: 27.9148
+Client 2, Epoch 5/5, Loss: 28.2430
+Client 3, Epoch 1/5, Loss: 50.5401
+Client 3, Epoch 2/5, Loss: 42.8431
+Client 3, Epoch 3/5, Loss: 33.9550
+Client 3, Epoch 4/5, Loss: 30.7426
+Client 3, Epoch 5/5, Loss: 27.1193
+Global Model, Round 7, Loss: 0.7179, Accuracy: 0.84
+
+--- SCAFFOLD: Round 8 ---
+Client 1, Epoch 1/5, Loss: 39.3628
+Client 1, Epoch 2/5, Loss: 33.2283
+Client 1, Epoch 3/5, Loss: 28.1671
+Client 1, Epoch 4/5, Loss: 25.5123
+Client 1, Epoch 5/5, Loss: 19.3533
+Client 2, Epoch 1/5, Loss: 35.4097
+Client 2, Epoch 2/5, Loss: 29.6683
+Client 2, Epoch 3/5, Loss: 28.1356
+Client 2, Epoch 4/5, Loss: 22.1373
+Client 2, Epoch 5/5, Loss: 22.7151
+Client 3, Epoch 1/5, Loss: 33.7029
+Client 3, Epoch 2/5, Loss: 28.5777
+Client 3, Epoch 3/5, Loss: 25.3782
+Client 3, Epoch 4/5, Loss: 25.9747
+Client 3, Epoch 5/5, Loss: 21.7804
+Global Model, Round 8, Loss: 0.7479, Accuracy: 0.84
+
+--- SCAFFOLD: Round 9 ---
+Client 1, Epoch 1/5, Loss: 30.3596
+Client 1, Epoch 2/5, Loss: 26.2573
+Client 1, Epoch 3/5, Loss: 20.5463
+Client 1, Epoch 4/5, Loss: 19.2228
+Client 1, Epoch 5/5, Loss: 21.9515
+Client 2, Epoch 1/5, Loss: 31.8543
+Client 2, Epoch 2/5, Loss: 24.3451
+Client 2, Epoch 3/5, Loss: 22.1335
+Client 2, Epoch 4/5, Loss: 17.8663
+Client 2, Epoch 5/5, Loss: 19.6504
+Client 3, Epoch 1/5, Loss: 27.9729
+Client 3, Epoch 2/5, Loss: 27.1210
+Client 3, Epoch 3/5, Loss: 25.4198
+Client 3, Epoch 4/5, Loss: 22.9404
+Client 3, Epoch 5/5, Loss: 21.9862
+Global Model, Round 9, Loss: 0.7636, Accuracy: 0.84
+
+--- SCAFFOLD: Round 10 ---
+Client 1, Epoch 1/5, Loss: 24.3577
+Client 1, Epoch 2/5, Loss: 19.3154
+Client 1, Epoch 3/5, Loss: 17.0779
+Client 1, Epoch 4/5, Loss: 17.0368
+Client 1, Epoch 5/5, Loss: 16.9923
+Client 2, Epoch 1/5, Loss: 19.0186
+Client 2, Epoch 2/5, Loss: 21.0723
+Client 2, Epoch 3/5, Loss: 19.2442
+Client 2, Epoch 4/5, Loss: 18.9444
+Client 2, Epoch 5/5, Loss: 16.8959
+Client 3, Epoch 1/5, Loss: 20.8981
+Client 3, Epoch 2/5, Loss: 20.8591
+Client 3, Epoch 3/5, Loss: 18.4675
+Client 3, Epoch 4/5, Loss: 20.6209
+Client 3, Epoch 5/5, Loss: 14.6578
+Global Model, Round 10, Loss: 0.7585, Accuracy: 0.84
+
+--- SCAFFOLD: Round 11 ---
+Client 1, Epoch 1/5, Loss: 15.9944
+Client 1, Epoch 2/5, Loss: 17.4771
+Client 1, Epoch 3/5, Loss: 17.2115
+Client 1, Epoch 4/5, Loss: 19.1020
+Client 1, Epoch 5/5, Loss: 13.4329
+Client 2, Epoch 1/5, Loss: 15.1015
+Client 2, Epoch 2/5, Loss: 20.0837
+Client 2, Epoch 3/5, Loss: 16.0938
+Client 2, Epoch 4/5, Loss: 15.0687
+Client 2, Epoch 5/5, Loss: 12.5127
+Client 3, Epoch 1/5, Loss: 15.9347
+Client 3, Epoch 2/5, Loss: 14.7419
+Client 3, Epoch 3/5, Loss: 17.1599
+Client 3, Epoch 4/5, Loss: 19.1715
+Client 3, Epoch 5/5, Loss: 19.8043
+Global Model, Round 11, Loss: 0.7771, Accuracy: 0.84
+
+--- SCAFFOLD: Round 12 ---
+Client 1, Epoch 1/5, Loss: 15.0552
+Client 1, Epoch 2/5, Loss: 16.9552
+Client 1, Epoch 3/5, Loss: 14.8816
+Client 1, Epoch 4/5, Loss: 16.6394
+Client 1, Epoch 5/5, Loss: 15.0495
+Client 2, Epoch 1/5, Loss: 10.3282
+Client 2, Epoch 2/5, Loss: 10.2838
+Client 2, Epoch 3/5, Loss: 13.3838
+Client 2, Epoch 4/5, Loss: 11.9035
+Client 2, Epoch 5/5, Loss: 11.9541
+Client 3, Epoch 1/5, Loss: 10.7390
+Client 3, Epoch 2/5, Loss: 16.7407
+Client 3, Epoch 3/5, Loss: 17.1072
+Client 3, Epoch 4/5, Loss: 11.8377
+Client 3, Epoch 5/5, Loss: 11.2979
+Global Model, Round 12, Loss: 0.7950, Accuracy: 0.84
+
+--- SCAFFOLD: Round 13 ---
+Client 1, Epoch 1/5, Loss: 11.7647
+Client 1, Epoch 2/5, Loss: 10.7560
+Client 1, Epoch 3/5, Loss: 9.4210
+Client 1, Epoch 4/5, Loss: 11.4829
+Client 1, Epoch 5/5, Loss: 11.4761
+Client 2, Epoch 1/5, Loss: 13.9462
+Client 2, Epoch 2/5, Loss: 11.2911
+Client 2, Epoch 3/5, Loss: 13.5065
+Client 2, Epoch 4/5, Loss: 15.2628
+Client 2, Epoch 5/5, Loss: 14.4280
+Client 3, Epoch 1/5, Loss: 9.6791
+Client 3, Epoch 2/5, Loss: 11.0488
+Client 3, Epoch 3/5, Loss: 15.3603
+Client 3, Epoch 4/5, Loss: 14.1876
+Client 3, Epoch 5/5, Loss: 10.5076
+Global Model, Round 13, Loss: 0.8282, Accuracy: 0.84
+
+--- SCAFFOLD: Round 14 ---
+Client 1, Epoch 1/5, Loss: 8.6888
+Client 1, Epoch 2/5, Loss: 9.7874
+Client 1, Epoch 3/5, Loss: 10.0806
+Client 1, Epoch 4/5, Loss: 10.6516
+Client 1, Epoch 5/5, Loss: 13.1898
+Client 2, Epoch 1/5, Loss: 9.0217
+Client 2, Epoch 2/5, Loss: 7.2384
+Client 2, Epoch 3/5, Loss: 7.6962
+Client 2, Epoch 4/5, Loss: 7.3636
+Client 2, Epoch 5/5, Loss: 9.1371
+Client 3, Epoch 1/5, Loss: 8.0118
+Client 3, Epoch 2/5, Loss: 8.0511
+Client 3, Epoch 3/5, Loss: 8.9129
+Client 3, Epoch 4/5, Loss: 9.5897
+Client 3, Epoch 5/5, Loss: 8.6448
+Global Model, Round 14, Loss: 0.8396, Accuracy: 0.84
+
+--- SCAFFOLD: Round 15 ---
+Client 1, Epoch 1/5, Loss: 6.7686
+Client 1, Epoch 2/5, Loss: 7.1514
+Client 1, Epoch 3/5, Loss: 7.3793
+Client 1, Epoch 4/5, Loss: 7.1643
+Client 1, Epoch 5/5, Loss: 7.2158
+Client 2, Epoch 1/5, Loss: 7.6809
+Client 2, Epoch 2/5, Loss: 9.7162
+Client 2, Epoch 3/5, Loss: 11.9377
+Client 2, Epoch 4/5, Loss: 11.6589
+Client 2, Epoch 5/5, Loss: 12.5630
+Client 3, Epoch 1/5, Loss: 6.5736
+Client 3, Epoch 2/5, Loss: 5.9725
+Client 3, Epoch 3/5, Loss: 6.4792
+Client 3, Epoch 4/5, Loss: 10.2695
+Client 3, Epoch 5/5, Loss: 9.6205
+Global Model, Round 15, Loss: 0.8485, Accuracy: 0.84
+
+--- SCAFFOLD: Round 16 ---
+Client 1, Epoch 1/5, Loss: 5.9587
+Client 1, Epoch 2/5, Loss: 4.6777
+Client 1, Epoch 3/5, Loss: 7.8253
+Client 1, Epoch 4/5, Loss: 9.7817
+Client 1, Epoch 5/5, Loss: 7.5870
+Client 2, Epoch 1/5, Loss: 6.6765
+Client 2, Epoch 2/5, Loss: 6.4772
+Client 2, Epoch 3/5, Loss: 6.9719
+Client 2, Epoch 4/5, Loss: 6.6731
+Client 2, Epoch 5/5, Loss: 10.3786
+Client 3, Epoch 1/5, Loss: 6.4520
+Client 3, Epoch 2/5, Loss: 5.3809
+Client 3, Epoch 3/5, Loss: 6.6301
+Client 3, Epoch 4/5, Loss: 6.1300
+Client 3, Epoch 5/5, Loss: 7.8162
+Global Model, Round 16, Loss: 0.8602, Accuracy: 0.84
+
+--- SCAFFOLD: Round 17 ---
+Client 1, Epoch 1/5, Loss: 4.2078
+Client 1, Epoch 2/5, Loss: 4.5549
+Client 1, Epoch 3/5, Loss: 5.9194
+Client 1, Epoch 4/5, Loss: 5.8095
+Client 1, Epoch 5/5, Loss: 7.9978
+Client 2, Epoch 1/5, Loss: 5.2491
+Client 2, Epoch 2/5, Loss: 6.0680
+Client 2, Epoch 3/5, Loss: 7.2440
+Client 2, Epoch 4/5, Loss: 6.5264
+Client 2, Epoch 5/5, Loss: 6.9618
+Client 3, Epoch 1/5, Loss: 4.0712
+Client 3, Epoch 2/5, Loss: 5.4454
+Client 3, Epoch 3/5, Loss: 4.3136
+Client 3, Epoch 4/5, Loss: 5.5623
+Client 3, Epoch 5/5, Loss: 6.4156
+Global Model, Round 17, Loss: 0.8742, Accuracy: 0.84
+
+--- SCAFFOLD: Round 18 ---
+Client 1, Epoch 1/5, Loss: 4.0152
+Client 1, Epoch 2/5, Loss: 4.4440
+Client 1, Epoch 3/5, Loss: 4.0887
+Client 1, Epoch 4/5, Loss: 5.7309
+Client 1, Epoch 5/5, Loss: 9.2601
+Client 2, Epoch 1/5, Loss: 3.1988
+Client 2, Epoch 2/5, Loss: 3.1927
+Client 2, Epoch 3/5, Loss: 3.7172
+Client 2, Epoch 4/5, Loss: 5.7844
+Client 2, Epoch 5/5, Loss: 6.6995
+Client 3, Epoch 1/5, Loss: 5.7838
+Client 3, Epoch 2/5, Loss: 7.4663
+Client 3, Epoch 3/5, Loss: 7.0697
+Client 3, Epoch 4/5, Loss: 8.1836
+Client 3, Epoch 5/5, Loss: 6.1591
+Global Model, Round 18, Loss: 0.8769, Accuracy: 0.84
+
+--- SCAFFOLD: Round 19 ---
+Client 1, Epoch 1/5, Loss: 4.6274
+Client 1, Epoch 2/5, Loss: 4.7606
+Client 1, Epoch 3/5, Loss: 6.6795
+Client 1, Epoch 4/5, Loss: 6.9022
+Client 1, Epoch 5/5, Loss: 7.6960
+Client 2, Epoch 1/5, Loss: 3.2320
+Client 2, Epoch 2/5, Loss: 4.7218
+Client 2, Epoch 3/5, Loss: 4.8945
+Client 2, Epoch 4/5, Loss: 4.6715
+Client 2, Epoch 5/5, Loss: 4.9169
+Client 3, Epoch 1/5, Loss: 3.5575
+Client 3, Epoch 2/5, Loss: 6.6405
+Client 3, Epoch 3/5, Loss: 6.7985
+Client 3, Epoch 4/5, Loss: 5.6987
+Client 3, Epoch 5/5, Loss: 7.9877
+Global Model, Round 19, Loss: 0.8840, Accuracy: 0.84
+
+--- SCAFFOLD: Round 20 ---
+Client 1, Epoch 1/5, Loss: 2.8351
+Client 1, Epoch 2/5, Loss: 2.9740
+Client 1, Epoch 3/5, Loss: 3.3286
+Client 1, Epoch 4/5, Loss: 3.9260
+Client 1, Epoch 5/5, Loss: 2.9759
+Client 2, Epoch 1/5, Loss: 4.0159
+Client 2, Epoch 2/5, Loss: 3.6215
+Client 2, Epoch 3/5, Loss: 6.2286
+Client 2, Epoch 4/5, Loss: 5.1337
+Client 2, Epoch 5/5, Loss: 5.8339
+Client 3, Epoch 1/5, Loss: 3.5395
+Client 3, Epoch 2/5, Loss: 4.0357
+Client 3, Epoch 3/5, Loss: 4.2958
+Client 3, Epoch 4/5, Loss: 5.7222
+Client 3, Epoch 5/5, Loss: 5.2516
+Global Model, Round 20, Loss: 0.8965, Accuracy: 0.84
+
+Running scaffold for ResNet-50
+
+--- SCAFFOLD: Round 1 ---
+Client 1, Epoch 1/5, Loss: 635.7462
+Client 1, Epoch 2/5, Loss: 365.3500
+Client 1, Epoch 3/5, Loss: 253.5549
+Client 1, Epoch 4/5, Loss: 175.4392
+Client 1, Epoch 5/5, Loss: 129.0972
+Client 2, Epoch 1/5, Loss: 618.8566
+Client 2, Epoch 2/5, Loss: 353.4861
+Client 2, Epoch 3/5, Loss: 247.9815
+Client 2, Epoch 4/5, Loss: 171.9313
+Client 2, Epoch 5/5, Loss: 125.7598
+Client 3, Epoch 1/5, Loss: 632.5428
+Client 3, Epoch 2/5, Loss: 366.2243
+Client 3, Epoch 3/5, Loss: 242.0154
+Client 3, Epoch 4/5, Loss: 177.9265
+Client 3, Epoch 5/5, Loss: 126.2699
+Global Model, Round 1, Loss: 0.5850, Accuracy: 0.80
+
+--- SCAFFOLD: Round 2 ---
+Client 1, Epoch 1/5, Loss: 282.0726
+Client 1, Epoch 2/5, Loss: 167.0487
+Client 1, Epoch 3/5, Loss: 113.8419
+Client 1, Epoch 4/5, Loss: 84.6972
+Client 1, Epoch 5/5, Loss: 61.8773
+Client 2, Epoch 1/5, Loss: 268.4202
+Client 2, Epoch 2/5, Loss: 160.5941
+Client 2, Epoch 3/5, Loss: 111.1731
+Client 2, Epoch 4/5, Loss: 74.1193
+Client 2, Epoch 5/5, Loss: 62.7502
+Client 3, Epoch 1/5, Loss: 272.7640
+Client 3, Epoch 2/5, Loss: 163.3487
+Client 3, Epoch 3/5, Loss: 107.1530
+Client 3, Epoch 4/5, Loss: 76.2421
+Client 3, Epoch 5/5, Loss: 58.8217
+Global Model, Round 2, Loss: 0.5223, Accuracy: 0.85
+
+--- SCAFFOLD: Round 3 ---
+Client 1, Epoch 1/5, Loss: 156.5999
+Client 1, Epoch 2/5, Loss: 82.7876
+Client 1, Epoch 3/5, Loss: 59.7281
+Client 1, Epoch 4/5, Loss: 47.8516
+Client 1, Epoch 5/5, Loss: 35.5296
+Client 2, Epoch 1/5, Loss: 149.2765
+Client 2, Epoch 2/5, Loss: 81.4104
+Client 2, Epoch 3/5, Loss: 50.6392
+Client 2, Epoch 4/5, Loss: 40.6288
+Client 2, Epoch 5/5, Loss: 36.2528
+Client 3, Epoch 1/5, Loss: 150.7196
+Client 3, Epoch 2/5, Loss: 79.6627
+Client 3, Epoch 3/5, Loss: 55.5988
+Client 3, Epoch 4/5, Loss: 43.9628
+Client 3, Epoch 5/5, Loss: 36.9428
+Global Model, Round 3, Loss: 0.5329, Accuracy: 0.86
+
+--- SCAFFOLD: Round 4 ---
+Client 1, Epoch 1/5, Loss: 91.8477
+Client 1, Epoch 2/5, Loss: 49.4869
+Client 1, Epoch 3/5, Loss: 40.4221
+Client 1, Epoch 4/5, Loss: 28.3863
+Client 1, Epoch 5/5, Loss: 26.1570
+Client 2, Epoch 1/5, Loss: 84.2964
+Client 2, Epoch 2/5, Loss: 50.3653
+Client 2, Epoch 3/5, Loss: 35.4949
+Client 2, Epoch 4/5, Loss: 31.1317
+Client 2, Epoch 5/5, Loss: 26.0307
+Client 3, Epoch 1/5, Loss: 86.4152
+Client 3, Epoch 2/5, Loss: 53.6897
+Client 3, Epoch 3/5, Loss: 36.0021
+Client 3, Epoch 4/5, Loss: 27.9910
+Client 3, Epoch 5/5, Loss: 25.1450
+Global Model, Round 4, Loss: 0.5501, Accuracy: 0.87
+
+--- SCAFFOLD: Round 5 ---
+Client 1, Epoch 1/5, Loss: 51.6919
+Client 1, Epoch 2/5, Loss: 31.9303
+Client 1, Epoch 3/5, Loss: 26.6015
+Client 1, Epoch 4/5, Loss: 25.4081
+Client 1, Epoch 5/5, Loss: 20.2757
+Client 2, Epoch 1/5, Loss: 45.6541
+Client 2, Epoch 2/5, Loss: 35.2581
+Client 2, Epoch 3/5, Loss: 32.2538
+Client 2, Epoch 4/5, Loss: 24.5061
+Client 2, Epoch 5/5, Loss: 18.7556
+Client 3, Epoch 1/5, Loss: 51.4787
+Client 3, Epoch 2/5, Loss: 35.1110
+Client 3, Epoch 3/5, Loss: 24.1179
+Client 3, Epoch 4/5, Loss: 21.0972
+Client 3, Epoch 5/5, Loss: 14.3147
+Global Model, Round 5, Loss: 0.5461, Accuracy: 0.87
+
+--- SCAFFOLD: Round 6 ---
+Client 1, Epoch 1/5, Loss: 24.7786
+Client 1, Epoch 2/5, Loss: 23.2837
+Client 1, Epoch 3/5, Loss: 23.5951
+Client 1, Epoch 4/5, Loss: 20.9857
+Client 1, Epoch 5/5, Loss: 15.3497
+Client 2, Epoch 1/5, Loss: 24.3310
+Client 2, Epoch 2/5, Loss: 21.9283
+Client 2, Epoch 3/5, Loss: 15.2792
+Client 2, Epoch 4/5, Loss: 13.2849
+Client 2, Epoch 5/5, Loss: 13.6239
+Client 3, Epoch 1/5, Loss: 24.2077
+Client 3, Epoch 2/5, Loss: 24.7700
+Client 3, Epoch 3/5, Loss: 18.5640
+Client 3, Epoch 4/5, Loss: 17.3388
+Client 3, Epoch 5/5, Loss: 18.9878
+Global Model, Round 6, Loss: 0.5628, Accuracy: 0.87
+
+--- SCAFFOLD: Round 7 ---
+Client 1, Epoch 1/5, Loss: 15.0452
+Client 1, Epoch 2/5, Loss: 12.3379
+Client 1, Epoch 3/5, Loss: 11.1842
+Client 1, Epoch 4/5, Loss: 12.1364
+Client 1, Epoch 5/5, Loss: 10.0899
+Client 2, Epoch 1/5, Loss: 15.6768
+Client 2, Epoch 2/5, Loss: 15.1265
+Client 2, Epoch 3/5, Loss: 11.9292
+Client 2, Epoch 4/5, Loss: 10.8031
+Client 2, Epoch 5/5, Loss: 9.5076
+Client 3, Epoch 1/5, Loss: 14.2425
+Client 3, Epoch 2/5, Loss: 12.0802
+Client 3, Epoch 3/5, Loss: 13.9057
+Client 3, Epoch 4/5, Loss: 12.4424
+Client 3, Epoch 5/5, Loss: 11.7250
+Global Model, Round 7, Loss: 0.6000, Accuracy: 0.87
+
+--- SCAFFOLD: Round 8 ---
+Client 1, Epoch 1/5, Loss: 7.0273
+Client 1, Epoch 2/5, Loss: 7.8596
+Client 1, Epoch 3/5, Loss: 10.2036
+Client 1, Epoch 4/5, Loss: 7.8452
+Client 1, Epoch 5/5, Loss: 9.9907
+Client 2, Epoch 1/5, Loss: 10.1185
+Client 2, Epoch 2/5, Loss: 7.9333
+Client 2, Epoch 3/5, Loss: 8.7000
+Client 2, Epoch 4/5, Loss: 9.9359
+Client 2, Epoch 5/5, Loss: 11.7703
+Client 3, Epoch 1/5, Loss: 8.7829
+Client 3, Epoch 2/5, Loss: 8.4423
+Client 3, Epoch 3/5, Loss: 7.7516
+Client 3, Epoch 4/5, Loss: 9.3477
+Client 3, Epoch 5/5, Loss: 10.7820
+Global Model, Round 8, Loss: 0.6028, Accuracy: 0.87
+
+--- SCAFFOLD: Round 9 ---
+Client 1, Epoch 1/5, Loss: 9.9639
+Client 1, Epoch 2/5, Loss: 9.2453
+Client 1, Epoch 3/5, Loss: 6.0151
+Client 1, Epoch 4/5, Loss: 5.8518
+Client 1, Epoch 5/5, Loss: 6.6158
+Client 2, Epoch 1/5, Loss: 7.5581
+Client 2, Epoch 2/5, Loss: 6.2793
+Client 2, Epoch 3/5, Loss: 5.2674
+Client 2, Epoch 4/5, Loss: 6.3048
+Client 2, Epoch 5/5, Loss: 5.7727
+Client 3, Epoch 1/5, Loss: 5.6261
+Client 3, Epoch 2/5, Loss: 8.6344
+Client 3, Epoch 3/5, Loss: 7.2525
+Client 3, Epoch 4/5, Loss: 5.6562
+Client 3, Epoch 5/5, Loss: 8.6135
+Global Model, Round 9, Loss: 0.6367, Accuracy: 0.87
+
+--- SCAFFOLD: Round 10 ---
+Client 1, Epoch 1/5, Loss: 6.9167
+Client 1, Epoch 2/5, Loss: 5.8294
+Client 1, Epoch 3/5, Loss: 7.7738
+Client 1, Epoch 4/5, Loss: 6.8165
+Client 1, Epoch 5/5, Loss: 7.3079
+Client 2, Epoch 1/5, Loss: 6.0805
+Client 2, Epoch 2/5, Loss: 5.6289
+Client 2, Epoch 3/5, Loss: 5.7232
+Client 2, Epoch 4/5, Loss: 6.1905
+Client 2, Epoch 5/5, Loss: 7.0161
+Client 3, Epoch 1/5, Loss: 5.0134
+Client 3, Epoch 2/5, Loss: 4.7090
+Client 3, Epoch 3/5, Loss: 4.7000
+Client 3, Epoch 4/5, Loss: 5.6061
+Client 3, Epoch 5/5, Loss: 4.3847
+Global Model, Round 10, Loss: 0.6513, Accuracy: 0.87
+
+--- SCAFFOLD: Round 11 ---
+Client 1, Epoch 1/5, Loss: 3.8125
+Client 1, Epoch 2/5, Loss: 2.5286
+Client 1, Epoch 3/5, Loss: 2.3945
+Client 1, Epoch 4/5, Loss: 4.0653
+Client 1, Epoch 5/5, Loss: 6.1376
+Client 2, Epoch 1/5, Loss: 3.0511
+Client 2, Epoch 2/5, Loss: 3.3966
+Client 2, Epoch 3/5, Loss: 2.6007
+Client 2, Epoch 4/5, Loss: 3.6818
+Client 2, Epoch 5/5, Loss: 5.8471
+Client 3, Epoch 1/5, Loss: 3.4358
+Client 3, Epoch 2/5, Loss: 3.6135
+Client 3, Epoch 3/5, Loss: 2.8482
+Client 3, Epoch 4/5, Loss: 3.0021
+Client 3, Epoch 5/5, Loss: 3.3826
+Global Model, Round 11, Loss: 0.6604, Accuracy: 0.87
+
+--- SCAFFOLD: Round 12 ---
+Client 1, Epoch 1/5, Loss: 2.3994
+Client 1, Epoch 2/5, Loss: 2.4511
+Client 1, Epoch 3/5, Loss: 3.3385
+Client 1, Epoch 4/5, Loss: 4.7643
+Client 1, Epoch 5/5, Loss: 7.2657
+Client 2, Epoch 1/5, Loss: 1.9686
+Client 2, Epoch 2/5, Loss: 1.7047
+Client 2, Epoch 3/5, Loss: 1.8147
+Client 2, Epoch 4/5, Loss: 3.2236
+Client 2, Epoch 5/5, Loss: 3.3256
+Client 3, Epoch 1/5, Loss: 1.5488
+Client 3, Epoch 2/5, Loss: 1.6960
+Client 3, Epoch 3/5, Loss: 3.0108
+Client 3, Epoch 4/5, Loss: 2.2239
+Client 3, Epoch 5/5, Loss: 3.7453
+Global Model, Round 12, Loss: 0.6754, Accuracy: 0.87
+
+--- SCAFFOLD: Round 13 ---
+Client 1, Epoch 1/5, Loss: 1.4403
+Client 1, Epoch 2/5, Loss: 3.3577
+Client 1, Epoch 3/5, Loss: 2.2220
+Client 1, Epoch 4/5, Loss: 2.6001
+Client 1, Epoch 5/5, Loss: 2.0997
+Client 2, Epoch 1/5, Loss: 2.5594
+Client 2, Epoch 2/5, Loss: 2.5278
+Client 2, Epoch 3/5, Loss: 1.6777
+Client 2, Epoch 4/5, Loss: 3.4349
+Client 2, Epoch 5/5, Loss: 4.2968
+Client 3, Epoch 1/5, Loss: 2.4997
+Client 3, Epoch 2/5, Loss: 2.5409
+Client 3, Epoch 3/5, Loss: 2.2590
+Client 3, Epoch 4/5, Loss: 4.2757
+Client 3, Epoch 5/5, Loss: 3.2606
+Global Model, Round 13, Loss: 0.6885, Accuracy: 0.87
+
+--- SCAFFOLD: Round 14 ---
+Client 1, Epoch 1/5, Loss: 1.3452
+Client 1, Epoch 2/5, Loss: 1.5473
+Client 1, Epoch 3/5, Loss: 1.6146
+Client 1, Epoch 4/5, Loss: 1.9459
+Client 1, Epoch 5/5, Loss: 2.5060
+Client 2, Epoch 1/5, Loss: 2.9933
+Client 2, Epoch 2/5, Loss: 2.5468
+Client 2, Epoch 3/5, Loss: 4.4385
+Client 2, Epoch 4/5, Loss: 6.6830
+Client 2, Epoch 5/5, Loss: 6.1479
+Client 3, Epoch 1/5, Loss: 1.9387
+Client 3, Epoch 2/5, Loss: 4.3166
+Client 3, Epoch 3/5, Loss: 3.4094
+Client 3, Epoch 4/5, Loss: 4.9548
+Client 3, Epoch 5/5, Loss: 4.2830
+Global Model, Round 14, Loss: 0.6835, Accuracy: 0.87
+
+--- SCAFFOLD: Round 15 ---
+Client 1, Epoch 1/5, Loss: 1.0830
+Client 1, Epoch 2/5, Loss: 1.5909
+Client 1, Epoch 3/5, Loss: 1.1359
+Client 1, Epoch 4/5, Loss: 4.6881
+Client 1, Epoch 5/5, Loss: 5.6081
+Client 2, Epoch 1/5, Loss: 1.7179
+Client 2, Epoch 2/5, Loss: 1.9360
+Client 2, Epoch 3/5, Loss: 2.3199
+Client 2, Epoch 4/5, Loss: 1.3239
+Client 2, Epoch 5/5, Loss: 1.2797
+Client 3, Epoch 1/5, Loss: 1.6761
+Client 3, Epoch 2/5, Loss: 1.6949
+Client 3, Epoch 3/5, Loss: 1.5985
+Client 3, Epoch 4/5, Loss: 1.8562
+Client 3, Epoch 5/5, Loss: 2.4819
+Global Model, Round 15, Loss: 0.6940, Accuracy: 0.87
+
+--- SCAFFOLD: Round 16 ---
+Client 1, Epoch 1/5, Loss: 1.1015
+Client 1, Epoch 2/5, Loss: 1.2171
+Client 1, Epoch 3/5, Loss: 2.2270
+Client 1, Epoch 4/5, Loss: 2.9116
+Client 1, Epoch 5/5, Loss: 2.1293
+Client 2, Epoch 1/5, Loss: 1.2779
+Client 2, Epoch 2/5, Loss: 1.1765
+Client 2, Epoch 3/5, Loss: 0.9043
+Client 2, Epoch 4/5, Loss: 1.6147
+Client 2, Epoch 5/5, Loss: 1.3908
+Client 3, Epoch 1/5, Loss: 0.8455
+Client 3, Epoch 2/5, Loss: 1.3787
+Client 3, Epoch 3/5, Loss: 1.7547
+Client 3, Epoch 4/5, Loss: 1.7068
+Client 3, Epoch 5/5, Loss: 1.4569
+Global Model, Round 16, Loss: 0.7058, Accuracy: 0.87
+
+--- SCAFFOLD: Round 17 ---
+Client 1, Epoch 1/5, Loss: 1.4069
+Client 1, Epoch 2/5, Loss: 1.4680
+Client 1, Epoch 3/5, Loss: 1.2960
+Client 1, Epoch 4/5, Loss: 1.3406
+Client 1, Epoch 5/5, Loss: 1.1836
+Client 2, Epoch 1/5, Loss: 0.6604
+Client 2, Epoch 2/5, Loss: 1.5677
+Client 2, Epoch 3/5, Loss: 1.3950
+Client 2, Epoch 4/5, Loss: 1.5416
+Client 2, Epoch 5/5, Loss: 1.8632
+Client 3, Epoch 1/5, Loss: 1.0087
+Client 3, Epoch 2/5, Loss: 0.7892
+Client 3, Epoch 3/5, Loss: 0.9734
+Client 3, Epoch 4/5, Loss: 1.0068
+Client 3, Epoch 5/5, Loss: 0.8709
+Global Model, Round 17, Loss: 0.7103, Accuracy: 0.87
+
+--- SCAFFOLD: Round 18 ---
+Client 1, Epoch 1/5, Loss: 0.6451
+Client 1, Epoch 2/5, Loss: 0.3182
+Client 1, Epoch 3/5, Loss: 0.8368
+Client 1, Epoch 4/5, Loss: 1.3732
+Client 1, Epoch 5/5, Loss: 0.7503
+Client 2, Epoch 1/5, Loss: 1.6217
+Client 2, Epoch 2/5, Loss: 1.9901
+Client 2, Epoch 3/5, Loss: 3.5991
+Client 2, Epoch 4/5, Loss: 4.4978
+Client 2, Epoch 5/5, Loss: 5.2408
+Client 3, Epoch 1/5, Loss: 0.4637
+Client 3, Epoch 2/5, Loss: 0.5217
+Client 3, Epoch 3/5, Loss: 1.4264
+Client 3, Epoch 4/5, Loss: 2.8494
+Client 3, Epoch 5/5, Loss: 2.6533
+Global Model, Round 18, Loss: 0.7030, Accuracy: 0.87
+
+--- SCAFFOLD: Round 19 ---
+Client 1, Epoch 1/5, Loss: 1.0939
+Client 1, Epoch 2/5, Loss: 0.6757
+Client 1, Epoch 3/5, Loss: 0.8691
+Client 1, Epoch 4/5, Loss: 0.6052
+Client 1, Epoch 5/5, Loss: 0.5796
+Client 2, Epoch 1/5, Loss: 0.8464
+Client 2, Epoch 2/5, Loss: 0.7541
+Client 2, Epoch 3/5, Loss: 0.8691
+Client 2, Epoch 4/5, Loss: 1.0675
+Client 2, Epoch 5/5, Loss: 0.8836
+Client 3, Epoch 1/5, Loss: 0.9491
+Client 3, Epoch 2/5, Loss: 1.2179
+Client 3, Epoch 3/5, Loss: 1.9021
+Client 3, Epoch 4/5, Loss: 1.7930
+Client 3, Epoch 5/5, Loss: 1.0579
+Global Model, Round 19, Loss: 0.7153, Accuracy: 0.87
+
+--- SCAFFOLD: Round 20 ---
+Client 1, Epoch 1/5, Loss: 0.3081
+Client 1, Epoch 2/5, Loss: 0.8774
+Client 1, Epoch 3/5, Loss: 1.8601
+Client 1, Epoch 4/5, Loss: 1.1667
+Client 1, Epoch 5/5, Loss: 1.6873
+Client 2, Epoch 1/5, Loss: 0.6971
+Client 2, Epoch 2/5, Loss: 0.7134
+Client 2, Epoch 3/5, Loss: 0.9980
+Client 2, Epoch 4/5, Loss: 0.9163
+Client 2, Epoch 5/5, Loss: 1.1148
+Client 3, Epoch 1/5, Loss: 0.3519
+Client 3, Epoch 2/5, Loss: 0.3272
+Client 3, Epoch 3/5, Loss: 0.2797
+Client 3, Epoch 4/5, Loss: 0.5374
+Client 3, Epoch 5/5, Loss: 1.0366
+Global Model, Round 20, Loss: 0.7192, Accuracy: 0.87
+Classification Report: scaffold ResNet-18
+              precision    recall  f1-score   support
+
+    airplane       0.86      0.88      0.87      1000
+  automobile       0.91      0.92      0.91      1000
+        bird       0.84      0.78      0.81      1000
+         cat       0.70      0.66      0.68      1000
+        deer       0.80      0.84      0.82      1000
+         dog       0.76      0.75      0.76      1000
+        frog       0.86      0.91      0.89      1000
+       horse       0.87      0.88      0.87      1000
+        ship       0.92      0.91      0.92      1000
+       truck       0.89      0.90      0.89      1000
+
+    accuracy                           0.84     10000
+   macro avg       0.84      0.84      0.84     10000
+weighted avg       0.84      0.84      0.84     10000
+
+Classification Report: scaffold ResNet-50
+              precision    recall  f1-score   support
+
+    airplane       0.87      0.92      0.89      1000
+  automobile       0.93      0.91      0.92      1000
+        bird       0.87      0.83      0.85      1000
+         cat       0.76      0.71      0.73      1000
+        deer       0.84      0.88      0.86      1000
+         dog       0.82      0.78      0.80      1000
+        frog       0.89      0.93      0.91      1000
+       horse       0.88      0.90      0.89      1000
+        ship       0.93      0.91      0.92      1000
+       truck       0.90      0.92      0.91      1000
+
+    accuracy                           0.87     10000
+   macro avg       0.87      0.87      0.87     10000
+weighted avg       0.87      0.87      0.87     10000
+
+
+Performing Inference: scaffold ResNet-18
+Prediction: cat, Ground Truth: cat
+Prediction: ship, Ground Truth: ship
+Prediction: ship, Ground Truth: ship
+Prediction: airplane, Ground Truth: airplane
+Prediction: frog, Ground Truth: frog
+Prediction: frog, Ground Truth: frog
+Prediction: automobile, Ground Truth: automobile
+Prediction: frog, Ground Truth: frog
+Prediction: cat, Ground Truth: cat
+Prediction: automobile, Ground Truth: automobile
+
+Performing Inference: scaffold ResNet-50
+Prediction: cat, Ground Truth: cat
+Prediction: ship, Ground Truth: ship
+Prediction: automobile, Ground Truth: ship
+Prediction: airplane, Ground Truth: airplane
+Prediction: frog, Ground Truth: frog
+Prediction: frog, Ground Truth: frog
+Prediction: automobile, Ground Truth: automobile
+Prediction: frog, Ground Truth: frog
+Prediction: cat, Ground Truth: cat
+Prediction: automobile, Ground Truth: automobile

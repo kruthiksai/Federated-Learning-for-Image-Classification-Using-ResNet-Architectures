@@ -1,0 +1,1123 @@
+Federated Learning Configuration:
+  Algorithm: fedavg
+  Dataset: CIFAR
+  Distribution: non-IID
+  Number of Clients: 3
+  Rounds: 25
+  Local Epochs: 5
+Files already downloaded and verified
+Files already downloaded and verified
+
+Running fedavg for ResNet-18
+
+--- FedAvg: Round 1 ---
+Client 1, Epoch 1/5, Loss: 100.9348
+Client 1, Epoch 2/5, Loss: 52.6351
+Client 1, Epoch 3/5, Loss: 33.8878
+Client 1, Epoch 4/5, Loss: 23.8932
+Client 1, Epoch 5/5, Loss: 18.4070
+Client 1 Accuracy (Round 1): 0.9300
+Client 2, Epoch 1/5, Loss: 88.2012
+Client 2, Epoch 2/5, Loss: 38.9907
+Client 2, Epoch 3/5, Loss: 24.1350
+Client 2, Epoch 4/5, Loss: 16.9292
+Client 2, Epoch 5/5, Loss: 13.5629
+Client 2 Accuracy (Round 1): 0.8599
+Client 3, Epoch 1/5, Loss: 74.0476
+Client 3, Epoch 2/5, Loss: 31.9077
+Client 3, Epoch 3/5, Loss: 18.7902
+Client 3, Epoch 4/5, Loss: 11.1468
+Client 3, Epoch 5/5, Loss: 8.9910
+Client 3 Accuracy (Round 1): 0.9478
+Global Model, Round 1, Loss: 1.9788, Accuracy: 0.31
+
+--- FedAvg: Round 2 ---
+Client 1, Epoch 1/5, Loss: 19.8795
+Client 1, Epoch 2/5, Loss: 12.6718
+Client 1, Epoch 3/5, Loss: 10.4189
+Client 1, Epoch 4/5, Loss: 5.6156
+Client 1, Epoch 5/5, Loss: 5.6916
+Client 1 Accuracy (Round 2): 0.9994
+Client 2, Epoch 1/5, Loss: 12.8663
+Client 2, Epoch 2/5, Loss: 8.3726
+Client 2, Epoch 3/5, Loss: 6.7082
+Client 2, Epoch 4/5, Loss: 5.2020
+Client 2, Epoch 5/5, Loss: 5.6440
+Client 2 Accuracy (Round 2): 0.9316
+Client 3, Epoch 1/5, Loss: 10.9331
+Client 3, Epoch 2/5, Loss: 6.8432
+Client 3, Epoch 3/5, Loss: 10.1400
+Client 3, Epoch 4/5, Loss: 8.9541
+Client 3, Epoch 5/5, Loss: 6.9230
+Client 3 Accuracy (Round 2): 0.8884
+Global Model, Round 2, Loss: 1.9373, Accuracy: 0.33
+
+--- FedAvg: Round 3 ---
+Client 1, Epoch 1/5, Loss: 4.3789
+Client 1, Epoch 2/5, Loss: 6.6312
+Client 1, Epoch 3/5, Loss: 6.3321
+Client 1, Epoch 4/5, Loss: 10.5327
+Client 1, Epoch 5/5, Loss: 9.8313
+Client 1 Accuracy (Round 3): 0.9984
+Client 2, Epoch 1/5, Loss: 9.4313
+Client 2, Epoch 2/5, Loss: 7.1796
+Client 2, Epoch 3/5, Loss: 5.7467
+Client 2, Epoch 4/5, Loss: 2.5134
+Client 2, Epoch 5/5, Loss: 2.7883
+Client 2 Accuracy (Round 3): 0.9908
+Client 3, Epoch 1/5, Loss: 4.2630
+Client 3, Epoch 2/5, Loss: 3.1471
+Client 3, Epoch 3/5, Loss: 7.2304
+Client 3, Epoch 4/5, Loss: 9.5110
+Client 3, Epoch 5/5, Loss: 6.3561
+Client 3 Accuracy (Round 3): 0.5364
+Global Model, Round 3, Loss: 1.9270, Accuracy: 0.33
+
+--- FedAvg: Round 4 ---
+Client 1, Epoch 1/5, Loss: 6.7960
+Client 1, Epoch 2/5, Loss: 7.9986
+Client 1, Epoch 3/5, Loss: 13.9775
+Client 1, Epoch 4/5, Loss: 6.5169
+Client 1, Epoch 5/5, Loss: 2.5312
+Client 1 Accuracy (Round 4): 1.0000
+Client 2, Epoch 1/5, Loss: 2.8267
+Client 2, Epoch 2/5, Loss: 4.0421
+Client 2, Epoch 3/5, Loss: 5.5149
+Client 2, Epoch 4/5, Loss: 10.6428
+Client 2, Epoch 5/5, Loss: 4.5159
+Client 2 Accuracy (Round 4): 0.9836
+Client 3, Epoch 1/5, Loss: 10.4615
+Client 3, Epoch 2/5, Loss: 5.1650
+Client 3, Epoch 3/5, Loss: 2.7643
+Client 3, Epoch 4/5, Loss: 1.9194
+Client 3, Epoch 5/5, Loss: 1.0913
+Client 3 Accuracy (Round 4): 0.9992
+Global Model, Round 4, Loss: 1.8954, Accuracy: 0.35
+
+--- FedAvg: Round 5 ---
+Client 1, Epoch 1/5, Loss: 1.7529
+Client 1, Epoch 2/5, Loss: 2.0521
+Client 1, Epoch 3/5, Loss: 3.4013
+Client 1, Epoch 4/5, Loss: 4.3260
+Client 1, Epoch 5/5, Loss: 10.3449
+Client 1 Accuracy (Round 5): 1.0000
+Client 2, Epoch 1/5, Loss: 3.5187
+Client 2, Epoch 2/5, Loss: 3.8437
+Client 2, Epoch 3/5, Loss: 3.8952
+Client 2, Epoch 4/5, Loss: 6.8074
+Client 2, Epoch 5/5, Loss: 3.1732
+Client 2 Accuracy (Round 5): 0.9766
+Client 3, Epoch 1/5, Loss: 1.2271
+Client 3, Epoch 2/5, Loss: 1.4742
+Client 3, Epoch 3/5, Loss: 0.8547
+Client 3, Epoch 4/5, Loss: 0.7672
+Client 3, Epoch 5/5, Loss: 0.4397
+Client 3 Accuracy (Round 5): 0.9998
+Global Model, Round 5, Loss: 1.9285, Accuracy: 0.33
+
+--- FedAvg: Round 6 ---
+Client 1, Epoch 1/5, Loss: 7.9989
+Client 1, Epoch 2/5, Loss: 6.4322
+Client 1, Epoch 3/5, Loss: 2.7859
+Client 1, Epoch 4/5, Loss: 1.8527
+Client 1, Epoch 5/5, Loss: 1.5480
+Client 1 Accuracy (Round 6): 1.0000
+Client 2, Epoch 1/5, Loss: 2.9360
+Client 2, Epoch 2/5, Loss: 2.2826
+Client 2, Epoch 3/5, Loss: 0.8940
+Client 2, Epoch 4/5, Loss: 0.9172
+Client 2, Epoch 5/5, Loss: 1.6125
+Client 2 Accuracy (Round 6): 0.9998
+Client 3, Epoch 1/5, Loss: 0.4237
+Client 3, Epoch 2/5, Loss: 1.3044
+Client 3, Epoch 3/5, Loss: 3.6166
+Client 3, Epoch 4/5, Loss: 1.4749
+Client 3, Epoch 5/5, Loss: 1.7324
+Client 3 Accuracy (Round 6): 0.9740
+Global Model, Round 6, Loss: 1.9030, Accuracy: 0.36
+
+--- FedAvg: Round 7 ---
+Client 1, Epoch 1/5, Loss: 1.2911
+Client 1, Epoch 2/5, Loss: 3.3169
+Client 1, Epoch 3/5, Loss: 1.0517
+Client 1, Epoch 4/5, Loss: 1.0311
+Client 1, Epoch 5/5, Loss: 2.4843
+Client 1 Accuracy (Round 7): 0.9998
+Client 2, Epoch 1/5, Loss: 0.8058
+Client 2, Epoch 2/5, Loss: 1.6907
+Client 2, Epoch 3/5, Loss: 7.9089
+Client 2, Epoch 4/5, Loss: 1.7270
+Client 2, Epoch 5/5, Loss: 1.6620
+Client 2 Accuracy (Round 7): 0.9998
+Client 3, Epoch 1/5, Loss: 2.4204
+Client 3, Epoch 2/5, Loss: 0.9945
+Client 3, Epoch 3/5, Loss: 3.2488
+Client 3, Epoch 4/5, Loss: 4.7898
+Client 3, Epoch 5/5, Loss: 2.0502
+Client 3 Accuracy (Round 7): 1.0000
+Global Model, Round 7, Loss: 1.9006, Accuracy: 0.36
+
+--- FedAvg: Round 8 ---
+Client 1, Epoch 1/5, Loss: 3.5024
+Client 1, Epoch 2/5, Loss: 2.5269
+Client 1, Epoch 3/5, Loss: 1.1152
+Client 1, Epoch 4/5, Loss: 0.5910
+Client 1, Epoch 5/5, Loss: 2.4743
+Client 1 Accuracy (Round 8): 0.8964
+Client 2, Epoch 1/5, Loss: 1.5940
+Client 2, Epoch 2/5, Loss: 1.4195
+Client 2, Epoch 3/5, Loss: 0.4847
+Client 2, Epoch 4/5, Loss: 0.3909
+Client 2, Epoch 5/5, Loss: 0.4931
+Client 2 Accuracy (Round 8): 1.0000
+Client 3, Epoch 1/5, Loss: 0.6890
+Client 3, Epoch 2/5, Loss: 1.2245
+Client 3, Epoch 3/5, Loss: 2.8897
+Client 3, Epoch 4/5, Loss: 4.5868
+Client 3, Epoch 5/5, Loss: 2.4507
+Client 3 Accuracy (Round 8): 0.9998
+Global Model, Round 8, Loss: 1.9182, Accuracy: 0.35
+
+--- FedAvg: Round 9 ---
+Client 1, Epoch 1/5, Loss: 7.0441
+Client 1, Epoch 2/5, Loss: 3.2964
+Client 1, Epoch 3/5, Loss: 1.1536
+Client 1, Epoch 4/5, Loss: 2.0715
+Client 1, Epoch 5/5, Loss: 6.5401
+Client 1 Accuracy (Round 9): 0.9996
+Client 2, Epoch 1/5, Loss: 0.6593
+Client 2, Epoch 2/5, Loss: 6.1081
+Client 2, Epoch 3/5, Loss: 4.8705
+Client 2, Epoch 4/5, Loss: 1.5345
+Client 2, Epoch 5/5, Loss: 2.6904
+Client 2 Accuracy (Round 9): 0.9996
+Client 3, Epoch 1/5, Loss: 0.6397
+Client 3, Epoch 2/5, Loss: 0.5519
+Client 3, Epoch 3/5, Loss: 1.2298
+Client 3, Epoch 4/5, Loss: 3.4576
+Client 3, Epoch 5/5, Loss: 9.7057
+Client 3 Accuracy (Round 9): 0.7307
+Global Model, Round 9, Loss: 1.9391, Accuracy: 0.35
+
+--- FedAvg: Round 10 ---
+Client 1, Epoch 1/5, Loss: 1.2099
+Client 1, Epoch 2/5, Loss: 1.9078
+Client 1, Epoch 3/5, Loss: 1.4240
+Client 1, Epoch 4/5, Loss: 1.4278
+Client 1, Epoch 5/5, Loss: 0.7430
+Client 1 Accuracy (Round 10): 1.0000
+Client 2, Epoch 1/5, Loss: 0.3716
+Client 2, Epoch 2/5, Loss: 1.3141
+Client 2, Epoch 3/5, Loss: 1.3757
+Client 2, Epoch 4/5, Loss: 1.2092
+Client 2, Epoch 5/5, Loss: 2.0400
+Client 2 Accuracy (Round 10): 1.0000
+Client 3, Epoch 1/5, Loss: 4.5759
+Client 3, Epoch 2/5, Loss: 3.6476
+Client 3, Epoch 3/5, Loss: 3.1876
+Client 3, Epoch 4/5, Loss: 0.8386
+Client 3, Epoch 5/5, Loss: 0.4835
+Client 3 Accuracy (Round 10): 1.0000
+Global Model, Round 10, Loss: 1.9094, Accuracy: 0.35
+
+--- FedAvg: Round 11 ---
+Client 1, Epoch 1/5, Loss: 0.6998
+Client 1, Epoch 2/5, Loss: 0.3743
+Client 1, Epoch 3/5, Loss: 1.3884
+Client 1, Epoch 4/5, Loss: 4.4001
+Client 1, Epoch 5/5, Loss: 2.9694
+Client 1 Accuracy (Round 11): 0.9996
+Client 2, Epoch 1/5, Loss: 3.6316
+Client 2, Epoch 2/5, Loss: 1.6119
+Client 2, Epoch 3/5, Loss: 1.2863
+Client 2, Epoch 4/5, Loss: 4.1315
+Client 2, Epoch 5/5, Loss: 3.2690
+Client 2 Accuracy (Round 11): 1.0000
+Client 3, Epoch 1/5, Loss: 0.3897
+Client 3, Epoch 2/5, Loss: 4.9115
+Client 3, Epoch 3/5, Loss: 4.3027
+Client 3, Epoch 4/5, Loss: 1.1160
+Client 3, Epoch 5/5, Loss: 2.2782
+Client 3 Accuracy (Round 11): 0.9784
+Global Model, Round 11, Loss: 1.9318, Accuracy: 0.34
+
+--- FedAvg: Round 12 ---
+Client 1, Epoch 1/5, Loss: 1.1331
+Client 1, Epoch 2/5, Loss: 0.9457
+Client 1, Epoch 3/5, Loss: 0.7196
+Client 1, Epoch 4/5, Loss: 0.5149
+Client 1, Epoch 5/5, Loss: 0.4563
+Client 1 Accuracy (Round 12): 1.0000
+Client 2, Epoch 1/5, Loss: 0.7683
+Client 2, Epoch 2/5, Loss: 2.0942
+Client 2, Epoch 3/5, Loss: 1.7226
+Client 2, Epoch 4/5, Loss: 1.9184
+Client 2, Epoch 5/5, Loss: 0.7390
+Client 2 Accuracy (Round 12): 0.9774
+Client 3, Epoch 1/5, Loss: 1.1515
+Client 3, Epoch 2/5, Loss: 0.5714
+Client 3, Epoch 3/5, Loss: 1.1830
+Client 3, Epoch 4/5, Loss: 1.6855
+Client 3, Epoch 5/5, Loss: 0.7444
+Client 3 Accuracy (Round 12): 1.0000
+Global Model, Round 12, Loss: 1.8939, Accuracy: 0.36
+
+--- FedAvg: Round 13 ---
+Client 1, Epoch 1/5, Loss: 0.2848
+Client 1, Epoch 2/5, Loss: 0.3511
+Client 1, Epoch 3/5, Loss: 0.4497
+Client 1, Epoch 4/5, Loss: 0.2639
+Client 1, Epoch 5/5, Loss: 0.6937
+Client 1 Accuracy (Round 13): 1.0000
+Client 2, Epoch 1/5, Loss: 2.3926
+Client 2, Epoch 2/5, Loss: 0.6394
+Client 2, Epoch 3/5, Loss: 3.9779
+Client 2, Epoch 4/5, Loss: 2.3177
+Client 2, Epoch 5/5, Loss: 6.3096
+Client 2 Accuracy (Round 13): 0.9466
+Client 3, Epoch 1/5, Loss: 0.3025
+Client 3, Epoch 2/5, Loss: 0.3085
+Client 3, Epoch 3/5, Loss: 0.1606
+Client 3, Epoch 4/5, Loss: 0.4464
+Client 3, Epoch 5/5, Loss: 3.6463
+Client 3 Accuracy (Round 13): 0.9890
+Global Model, Round 13, Loss: 1.9688, Accuracy: 0.32
+
+--- FedAvg: Round 14 ---
+Client 1, Epoch 1/5, Loss: 0.4335
+Client 1, Epoch 2/5, Loss: 0.5335
+Client 1, Epoch 3/5, Loss: 0.3400
+Client 1, Epoch 4/5, Loss: 0.1225
+Client 1, Epoch 5/5, Loss: 1.0669
+Client 1 Accuracy (Round 14): 0.7857
+Client 2, Epoch 1/5, Loss: 7.5890
+Client 2, Epoch 2/5, Loss: 3.2678
+Client 2, Epoch 3/5, Loss: 3.7616
+Client 2, Epoch 4/5, Loss: 5.2368
+Client 2, Epoch 5/5, Loss: 1.0916
+Client 2 Accuracy (Round 14): 1.0000
+Client 3, Epoch 1/5, Loss: 1.2473
+Client 3, Epoch 2/5, Loss: 6.5594
+Client 3, Epoch 3/5, Loss: 9.0722
+Client 3, Epoch 4/5, Loss: 3.0854
+Client 3, Epoch 5/5, Loss: 0.9740
+Client 3 Accuracy (Round 14): 1.0000
+Global Model, Round 14, Loss: 1.9397, Accuracy: 0.32
+
+--- FedAvg: Round 15 ---
+Client 1, Epoch 1/5, Loss: 9.6494
+Client 1, Epoch 2/5, Loss: 10.1344
+Client 1, Epoch 3/5, Loss: 2.2901
+Client 1, Epoch 4/5, Loss: 1.4703
+Client 1, Epoch 5/5, Loss: 3.4146
+Client 1 Accuracy (Round 15): 0.9620
+Client 2, Epoch 1/5, Loss: 0.6463
+Client 2, Epoch 2/5, Loss: 1.3889
+Client 2, Epoch 3/5, Loss: 4.2908
+Client 2, Epoch 4/5, Loss: 1.1073
+Client 2, Epoch 5/5, Loss: 0.7088
+Client 2 Accuracy (Round 15): 1.0000
+Client 3, Epoch 1/5, Loss: 0.7595
+Client 3, Epoch 2/5, Loss: 4.3305
+Client 3, Epoch 3/5, Loss: 3.0310
+Client 3, Epoch 4/5, Loss: 0.8520
+Client 3, Epoch 5/5, Loss: 0.5743
+Client 3 Accuracy (Round 15): 0.9998
+Global Model, Round 15, Loss: 1.9335, Accuracy: 0.33
+
+--- FedAvg: Round 16 ---
+Client 1, Epoch 1/5, Loss: 1.4681
+Client 1, Epoch 2/5, Loss: 0.9164
+Client 1, Epoch 3/5, Loss: 1.6685
+Client 1, Epoch 4/5, Loss: 3.1636
+Client 1, Epoch 5/5, Loss: 0.7049
+Client 1 Accuracy (Round 16): 1.0000
+Client 2, Epoch 1/5, Loss: 1.4461
+Client 2, Epoch 2/5, Loss: 1.3589
+Client 2, Epoch 3/5, Loss: 0.6164
+Client 2, Epoch 4/5, Loss: 0.4342
+Client 2, Epoch 5/5, Loss: 3.2881
+Client 2 Accuracy (Round 16): 0.9808
+Client 3, Epoch 1/5, Loss: 4.0291
+Client 3, Epoch 2/5, Loss: 1.1915
+Client 3, Epoch 3/5, Loss: 0.3406
+Client 3, Epoch 4/5, Loss: 0.2568
+Client 3, Epoch 5/5, Loss: 0.2448
+Client 3 Accuracy (Round 16): 1.0000
+Global Model, Round 16, Loss: 1.9373, Accuracy: 0.34
+
+--- FedAvg: Round 17 ---
+Client 1, Epoch 1/5, Loss: 5.2740
+Client 1, Epoch 2/5, Loss: 8.5395
+Client 1, Epoch 3/5, Loss: 1.9481
+Client 1, Epoch 4/5, Loss: 1.5208
+Client 1, Epoch 5/5, Loss: 1.0911
+Client 1 Accuracy (Round 17): 1.0000
+Client 2, Epoch 1/5, Loss: 4.3504
+Client 2, Epoch 2/5, Loss: 7.2519
+Client 2, Epoch 3/5, Loss: 2.3252
+Client 2, Epoch 4/5, Loss: 1.3125
+Client 2, Epoch 5/5, Loss: 0.8078
+Client 2 Accuracy (Round 17): 1.0000
+Client 3, Epoch 1/5, Loss: 0.5388
+Client 3, Epoch 2/5, Loss: 1.1347
+Client 3, Epoch 3/5, Loss: 1.3421
+Client 3, Epoch 4/5, Loss: 1.1452
+Client 3, Epoch 5/5, Loss: 0.7918
+Client 3 Accuracy (Round 17): 1.0000
+Global Model, Round 17, Loss: 1.9508, Accuracy: 0.33
+
+--- FedAvg: Round 18 ---
+Client 1, Epoch 1/5, Loss: 0.6252
+Client 1, Epoch 2/5, Loss: 0.5864
+Client 1, Epoch 3/5, Loss: 2.0101
+Client 1, Epoch 4/5, Loss: 9.0360
+Client 1, Epoch 5/5, Loss: 4.3916
+Client 1 Accuracy (Round 18): 0.9998
+Client 2, Epoch 1/5, Loss: 0.6427
+Client 2, Epoch 2/5, Loss: 0.5271
+Client 2, Epoch 3/5, Loss: 2.7395
+Client 2, Epoch 4/5, Loss: 2.2011
+Client 2, Epoch 5/5, Loss: 2.3062
+Client 2 Accuracy (Round 18): 0.9762
+Client 3, Epoch 1/5, Loss: 0.4886
+Client 3, Epoch 2/5, Loss: 0.3361
+Client 3, Epoch 3/5, Loss: 1.2094
+Client 3, Epoch 4/5, Loss: 0.9043
+Client 3, Epoch 5/5, Loss: 0.3296
+Client 3 Accuracy (Round 18): 0.9998
+Global Model, Round 18, Loss: 1.9264, Accuracy: 0.35
+
+--- FedAvg: Round 19 ---
+Client 1, Epoch 1/5, Loss: 4.0220
+Client 1, Epoch 2/5, Loss: 1.5105
+Client 1, Epoch 3/5, Loss: 0.7865
+Client 1, Epoch 4/5, Loss: 0.5205
+Client 1, Epoch 5/5, Loss: 2.6770
+Client 1 Accuracy (Round 19): 0.9822
+Client 2, Epoch 1/5, Loss: 3.1296
+Client 2, Epoch 2/5, Loss: 0.6299
+Client 2, Epoch 3/5, Loss: 0.7058
+Client 2, Epoch 4/5, Loss: 0.1993
+Client 2, Epoch 5/5, Loss: 0.2688
+Client 2 Accuracy (Round 19): 1.0000
+Client 3, Epoch 1/5, Loss: 3.8966
+Client 3, Epoch 2/5, Loss: 1.1360
+Client 3, Epoch 3/5, Loss: 0.2681
+Client 3, Epoch 4/5, Loss: 0.6781
+Client 3, Epoch 5/5, Loss: 2.9329
+Client 3 Accuracy (Round 19): 0.9844
+Global Model, Round 19, Loss: 1.9578, Accuracy: 0.33
+
+--- FedAvg: Round 20 ---
+Client 1, Epoch 1/5, Loss: 3.4637
+Client 1, Epoch 2/5, Loss: 3.3838
+Client 1, Epoch 3/5, Loss: 4.8958
+Client 1, Epoch 4/5, Loss: 1.2367
+Client 1, Epoch 5/5, Loss: 3.5597
+Client 1 Accuracy (Round 20): 0.7325
+Client 2, Epoch 1/5, Loss: 0.1610
+Client 2, Epoch 2/5, Loss: 0.2924
+Client 2, Epoch 3/5, Loss: 0.4311
+Client 2, Epoch 4/5, Loss: 3.0022
+Client 2, Epoch 5/5, Loss: 2.3419
+Client 2 Accuracy (Round 20): 1.0000
+Client 3, Epoch 1/5, Loss: 2.4163
+Client 3, Epoch 2/5, Loss: 0.6352
+Client 3, Epoch 3/5, Loss: 0.2232
+Client 3, Epoch 4/5, Loss: 0.3587
+Client 3, Epoch 5/5, Loss: 0.1496
+Client 3 Accuracy (Round 20): 1.0000
+Global Model, Round 20, Loss: 1.9323, Accuracy: 0.37
+
+--- FedAvg: Round 21 ---
+Client 1, Epoch 1/5, Loss: 4.1404
+Client 1, Epoch 2/5, Loss: 0.7390
+Client 1, Epoch 3/5, Loss: 0.4935
+Client 1, Epoch 4/5, Loss: 0.7701
+Client 1, Epoch 5/5, Loss: 0.3575
+Client 1 Accuracy (Round 21): 1.0000
+Client 2, Epoch 1/5, Loss: 0.5078
+Client 2, Epoch 2/5, Loss: 3.6183
+Client 2, Epoch 3/5, Loss: 3.5144
+Client 2, Epoch 4/5, Loss: 0.5259
+Client 2, Epoch 5/5, Loss: 0.3827
+Client 2 Accuracy (Round 21): 1.0000
+Client 3, Epoch 1/5, Loss: 0.1378
+Client 3, Epoch 2/5, Loss: 2.1509
+Client 3, Epoch 3/5, Loss: 1.0982
+Client 3, Epoch 4/5, Loss: 4.7183
+Client 3, Epoch 5/5, Loss: 0.9135
+Client 3 Accuracy (Round 21): 1.0000
+Global Model, Round 21, Loss: 1.9375, Accuracy: 0.35
+
+--- FedAvg: Round 22 ---
+Client 1, Epoch 1/5, Loss: 0.4516
+Client 1, Epoch 2/5, Loss: 0.5608
+Client 1, Epoch 3/5, Loss: 0.9576
+Client 1, Epoch 4/5, Loss: 0.8802
+Client 1, Epoch 5/5, Loss: 2.7010
+Client 1 Accuracy (Round 22): 0.9036
+Client 2, Epoch 1/5, Loss: 0.6433
+Client 2, Epoch 2/5, Loss: 0.2474
+Client 2, Epoch 3/5, Loss: 0.5215
+Client 2, Epoch 4/5, Loss: 0.4060
+Client 2, Epoch 5/5, Loss: 1.2363
+Client 2 Accuracy (Round 22): 0.7945
+Client 3, Epoch 1/5, Loss: 0.2576
+Client 3, Epoch 2/5, Loss: 1.8817
+Client 3, Epoch 3/5, Loss: 2.4842
+Client 3, Epoch 4/5, Loss: 1.5968
+Client 3, Epoch 5/5, Loss: 0.3998
+Client 3 Accuracy (Round 22): 1.0000
+Global Model, Round 22, Loss: 1.9690, Accuracy: 0.29
+
+--- FedAvg: Round 23 ---
+Client 1, Epoch 1/5, Loss: 1.1181
+Client 1, Epoch 2/5, Loss: 2.8308
+Client 1, Epoch 3/5, Loss: 2.3761
+Client 1, Epoch 4/5, Loss: 2.5714
+Client 1, Epoch 5/5, Loss: 1.3945
+Client 1 Accuracy (Round 23): 0.9978
+Client 2, Epoch 1/5, Loss: 5.1215
+Client 2, Epoch 2/5, Loss: 4.6145
+Client 2, Epoch 3/5, Loss: 0.9153
+Client 2, Epoch 4/5, Loss: 1.6250
+Client 2, Epoch 5/5, Loss: 3.6603
+Client 2 Accuracy (Round 23): 1.0000
+Client 3, Epoch 1/5, Loss: 0.4694
+Client 3, Epoch 2/5, Loss: 0.5223
+Client 3, Epoch 3/5, Loss: 4.4117
+Client 3, Epoch 4/5, Loss: 2.3375
+Client 3, Epoch 5/5, Loss: 0.3778
+Client 3 Accuracy (Round 23): 1.0000
+Global Model, Round 23, Loss: 1.9893, Accuracy: 0.27
+
+--- FedAvg: Round 24 ---
+Client 1, Epoch 1/5, Loss: 1.2702
+Client 1, Epoch 2/5, Loss: 1.8690
+Client 1, Epoch 3/5, Loss: 2.1520
+Client 1, Epoch 4/5, Loss: 0.5271
+Client 1, Epoch 5/5, Loss: 0.6671
+Client 1 Accuracy (Round 24): 1.0000
+Client 2, Epoch 1/5, Loss: 0.7663
+Client 2, Epoch 2/5, Loss: 0.6376
+Client 2, Epoch 3/5, Loss: 0.5538
+Client 2, Epoch 4/5, Loss: 0.3174
+Client 2, Epoch 5/5, Loss: 0.3224
+Client 2 Accuracy (Round 24): 1.0000
+Client 3, Epoch 1/5, Loss: 0.3009
+Client 3, Epoch 2/5, Loss: 0.4401
+Client 3, Epoch 3/5, Loss: 0.2398
+Client 3, Epoch 4/5, Loss: 0.0838
+Client 3, Epoch 5/5, Loss: 0.1242
+Client 3 Accuracy (Round 24): 1.0000
+Global Model, Round 24, Loss: 1.9290, Accuracy: 0.33
+
+--- FedAvg: Round 25 ---
+Client 1, Epoch 1/5, Loss: 2.7104
+Client 1, Epoch 2/5, Loss: 3.8206
+Client 1, Epoch 3/5, Loss: 1.3423
+Client 1, Epoch 4/5, Loss: 0.6758
+Client 1, Epoch 5/5, Loss: 0.3130
+Client 1 Accuracy (Round 25): 1.0000
+Client 2, Epoch 1/5, Loss: 0.3936
+Client 2, Epoch 2/5, Loss: 0.1151
+Client 2, Epoch 3/5, Loss: 0.1594
+Client 2, Epoch 4/5, Loss: 3.2120
+Client 2, Epoch 5/5, Loss: 0.5882
+Client 2 Accuracy (Round 25): 1.0000
+Client 3, Epoch 1/5, Loss: 0.4453
+Client 3, Epoch 2/5, Loss: 0.1763
+Client 3, Epoch 3/5, Loss: 0.0619
+Client 3, Epoch 4/5, Loss: 0.0520
+Client 3, Epoch 5/5, Loss: 0.0420
+Client 3 Accuracy (Round 25): 1.0000
+Global Model, Round 25, Loss: 1.9389, Accuracy: 0.31
+
+Running fedavg for ResNet-50
+
+--- FedAvg: Round 1 ---
+Client 1, Epoch 1/5, Loss: 96.2709
+Client 1, Epoch 2/5, Loss: 46.6282
+Client 1, Epoch 3/5, Loss: 29.1549
+Client 1, Epoch 4/5, Loss: 18.7985
+Client 1, Epoch 5/5, Loss: 12.9570
+Client 1 Accuracy (Round 1): 0.9948
+Client 2, Epoch 1/5, Loss: 87.5006
+Client 2, Epoch 2/5, Loss: 36.4025
+Client 2, Epoch 3/5, Loss: 21.1378
+Client 2, Epoch 4/5, Loss: 10.8358
+Client 2, Epoch 5/5, Loss: 9.2464
+Client 2 Accuracy (Round 1): 0.9548
+Client 3, Epoch 1/5, Loss: 67.5181
+Client 3, Epoch 2/5, Loss: 23.6732
+Client 3, Epoch 3/5, Loss: 18.7111
+Client 3, Epoch 4/5, Loss: 14.9472
+Client 3, Epoch 5/5, Loss: 16.2854
+Client 3 Accuracy (Round 1): 0.9398
+Global Model, Round 1, Loss: 1.9696, Accuracy: 0.37
+
+--- FedAvg: Round 2 ---
+Client 1, Epoch 1/5, Loss: 11.8439
+Client 1, Epoch 2/5, Loss: 14.9915
+Client 1, Epoch 3/5, Loss: 7.5038
+Client 1, Epoch 4/5, Loss: 20.4425
+Client 1, Epoch 5/5, Loss: 9.0834
+Client 1 Accuracy (Round 2): 0.8621
+Client 2, Epoch 1/5, Loss: 8.2178
+Client 2, Epoch 2/5, Loss: 4.2135
+Client 2, Epoch 3/5, Loss: 3.2272
+Client 2, Epoch 4/5, Loss: 3.3187
+Client 2, Epoch 5/5, Loss: 6.1933
+Client 2 Accuracy (Round 2): 0.9856
+Client 3, Epoch 1/5, Loss: 9.5886
+Client 3, Epoch 2/5, Loss: 5.5953
+Client 3, Epoch 3/5, Loss: 6.7003
+Client 3, Epoch 4/5, Loss: 3.1494
+Client 3, Epoch 5/5, Loss: 3.0956
+Client 3 Accuracy (Round 2): 1.0000
+Global Model, Round 2, Loss: 1.9595, Accuracy: 0.39
+
+--- FedAvg: Round 3 ---
+Client 1, Epoch 1/5, Loss: 14.2691
+Client 1, Epoch 2/5, Loss: 12.5022
+Client 1, Epoch 3/5, Loss: 6.6603
+Client 1, Epoch 4/5, Loss: 5.7743
+Client 1, Epoch 5/5, Loss: 11.7877
+Client 1 Accuracy (Round 3): 0.9994
+Client 2, Epoch 1/5, Loss: 4.4318
+Client 2, Epoch 2/5, Loss: 4.3950
+Client 2, Epoch 3/5, Loss: 22.3550
+Client 2, Epoch 4/5, Loss: 4.4037
+Client 2, Epoch 5/5, Loss: 4.3736
+Client 2 Accuracy (Round 3): 0.9914
+Client 3, Epoch 1/5, Loss: 3.5600
+Client 3, Epoch 2/5, Loss: 10.1351
+Client 3, Epoch 3/5, Loss: 7.3798
+Client 3, Epoch 4/5, Loss: 1.5542
+Client 3, Epoch 5/5, Loss: 1.1831
+Client 3 Accuracy (Round 3): 1.0000
+Global Model, Round 3, Loss: 1.9916, Accuracy: 0.38
+
+--- FedAvg: Round 4 ---
+Client 1, Epoch 1/5, Loss: 2.2962
+Client 1, Epoch 2/5, Loss: 1.9737
+Client 1, Epoch 3/5, Loss: 1.0668
+Client 1, Epoch 4/5, Loss: 1.6205
+Client 1, Epoch 5/5, Loss: 7.4012
+Client 1 Accuracy (Round 4): 0.6138
+Client 2, Epoch 1/5, Loss: 4.9803
+Client 2, Epoch 2/5, Loss: 12.7952
+Client 2, Epoch 3/5, Loss: 5.6774
+Client 2, Epoch 4/5, Loss: 3.5137
+Client 2, Epoch 5/5, Loss: 1.4623
+Client 2 Accuracy (Round 4): 1.0000
+Client 3, Epoch 1/5, Loss: 0.7714
+Client 3, Epoch 2/5, Loss: 1.2638
+Client 3, Epoch 3/5, Loss: 0.9648
+Client 3, Epoch 4/5, Loss: 2.1285
+Client 3, Epoch 5/5, Loss: 6.0023
+Client 3 Accuracy (Round 4): 0.9836
+Global Model, Round 4, Loss: 2.0128, Accuracy: 0.32
+
+--- FedAvg: Round 5 ---
+Client 1, Epoch 1/5, Loss: 6.9127
+Client 1, Epoch 2/5, Loss: 4.3008
+Client 1, Epoch 3/5, Loss: 5.0081
+Client 1, Epoch 4/5, Loss: 1.3420
+Client 1, Epoch 5/5, Loss: 1.2819
+Client 1 Accuracy (Round 5): 0.9796
+Client 2, Epoch 1/5, Loss: 0.8740
+Client 2, Epoch 2/5, Loss: 2.1018
+Client 2, Epoch 3/5, Loss: 9.0330
+Client 2, Epoch 4/5, Loss: 5.0860
+Client 2, Epoch 5/5, Loss: 5.9101
+Client 2 Accuracy (Round 5): 0.9884
+Client 3, Epoch 1/5, Loss: 7.2219
+Client 3, Epoch 2/5, Loss: 1.8922
+Client 3, Epoch 3/5, Loss: 1.1115
+Client 3, Epoch 4/5, Loss: 0.3508
+Client 3, Epoch 5/5, Loss: 0.1942
+Client 3 Accuracy (Round 5): 1.0000
+Global Model, Round 5, Loss: 1.9885, Accuracy: 0.35
+
+--- FedAvg: Round 6 ---
+Client 1, Epoch 1/5, Loss: 4.9553
+Client 1, Epoch 2/5, Loss: 6.3017
+Client 1, Epoch 3/5, Loss: 3.2754
+Client 1, Epoch 4/5, Loss: 7.2510
+Client 1, Epoch 5/5, Loss: 11.2791
+Client 1 Accuracy (Round 6): 0.7481
+Client 2, Epoch 1/5, Loss: 4.0179
+Client 2, Epoch 2/5, Loss: 3.8100
+Client 2, Epoch 3/5, Loss: 4.6176
+Client 2, Epoch 4/5, Loss: 1.6802
+Client 2, Epoch 5/5, Loss: 4.2611
+Client 2 Accuracy (Round 6): 0.9996
+Client 3, Epoch 1/5, Loss: 0.4665
+Client 3, Epoch 2/5, Loss: 0.1582
+Client 3, Epoch 3/5, Loss: 0.2555
+Client 3, Epoch 4/5, Loss: 3.4950
+Client 3, Epoch 5/5, Loss: 8.2102
+Client 3 Accuracy (Round 6): 0.9998
+Global Model, Round 6, Loss: 1.9893, Accuracy: 0.41
+
+--- FedAvg: Round 7 ---
+Client 1, Epoch 1/5, Loss: 10.0204
+Client 1, Epoch 2/5, Loss: 2.1677
+Client 1, Epoch 3/5, Loss: 1.0838
+Client 1, Epoch 4/5, Loss: 1.1301
+Client 1, Epoch 5/5, Loss: 2.6470
+Client 1 Accuracy (Round 7): 0.9998
+Client 2, Epoch 1/5, Loss: 3.0965
+Client 2, Epoch 2/5, Loss: 1.7532
+Client 2, Epoch 3/5, Loss: 0.6654
+Client 2, Epoch 4/5, Loss: 0.4019
+Client 2, Epoch 5/5, Loss: 1.8152
+Client 2 Accuracy (Round 7): 0.6807
+Client 3, Epoch 1/5, Loss: 0.9218
+Client 3, Epoch 2/5, Loss: 2.3557
+Client 3, Epoch 3/5, Loss: 23.3616
+Client 3, Epoch 4/5, Loss: 4.3867
+Client 3, Epoch 5/5, Loss: 5.2711
+Client 3 Accuracy (Round 7): 0.9546
+Global Model, Round 7, Loss: 1.9929, Accuracy: 0.36
+
+--- FedAvg: Round 8 ---
+Client 1, Epoch 1/5, Loss: 0.5503
+Client 1, Epoch 2/5, Loss: 2.4454
+Client 1, Epoch 3/5, Loss: 6.2154
+Client 1, Epoch 4/5, Loss: 7.9921
+Client 1, Epoch 5/5, Loss: 1.8592
+Client 1 Accuracy (Round 8): 0.9810
+Client 2, Epoch 1/5, Loss: 23.4600
+Client 2, Epoch 2/5, Loss: 4.3292
+Client 2, Epoch 3/5, Loss: 2.6108
+Client 2, Epoch 4/5, Loss: 1.4059
+Client 2, Epoch 5/5, Loss: 0.6974
+Client 2 Accuracy (Round 8): 1.0000
+Client 3, Epoch 1/5, Loss: 1.5782
+Client 3, Epoch 2/5, Loss: 0.6644
+Client 3, Epoch 3/5, Loss: 1.1642
+Client 3, Epoch 4/5, Loss: 2.5031
+Client 3, Epoch 5/5, Loss: 0.5401
+Client 3 Accuracy (Round 8): 1.0000
+Global Model, Round 8, Loss: 1.9894, Accuracy: 0.37
+
+--- FedAvg: Round 9 ---
+Client 1, Epoch 1/5, Loss: 3.8083
+Client 1, Epoch 2/5, Loss: 6.1649
+Client 1, Epoch 3/5, Loss: 3.6489
+Client 1, Epoch 4/5, Loss: 0.7178
+Client 1, Epoch 5/5, Loss: 0.7307
+Client 1 Accuracy (Round 9): 0.9998
+Client 2, Epoch 1/5, Loss: 0.3771
+Client 2, Epoch 2/5, Loss: 2.2334
+Client 2, Epoch 3/5, Loss: 1.3490
+Client 2, Epoch 4/5, Loss: 3.1326
+Client 2, Epoch 5/5, Loss: 2.1872
+Client 2 Accuracy (Round 9): 0.9998
+Client 3, Epoch 1/5, Loss: 0.3032
+Client 3, Epoch 2/5, Loss: 0.7948
+Client 3, Epoch 3/5, Loss: 1.3067
+Client 3, Epoch 4/5, Loss: 2.6208
+Client 3, Epoch 5/5, Loss: 0.7394
+Client 3 Accuracy (Round 9): 0.9978
+Global Model, Round 9, Loss: 1.9940, Accuracy: 0.40
+
+--- FedAvg: Round 10 ---
+Client 1, Epoch 1/5, Loss: 0.5223
+Client 1, Epoch 2/5, Loss: 0.5417
+Client 1, Epoch 3/5, Loss: 0.3552
+Client 1, Epoch 4/5, Loss: 0.7041
+Client 1, Epoch 5/5, Loss: 0.1633
+Client 1 Accuracy (Round 10): 1.0000
+Client 2, Epoch 1/5, Loss: 2.1762
+Client 2, Epoch 2/5, Loss: 0.9259
+Client 2, Epoch 3/5, Loss: 0.3579
+Client 2, Epoch 4/5, Loss: 1.9967
+Client 2, Epoch 5/5, Loss: 3.9939
+Client 2 Accuracy (Round 10): 0.9962
+Client 3, Epoch 1/5, Loss: 2.1425
+Client 3, Epoch 2/5, Loss: 1.4700
+Client 3, Epoch 3/5, Loss: 0.2302
+Client 3, Epoch 4/5, Loss: 0.4546
+Client 3, Epoch 5/5, Loss: 0.5122
+Client 3 Accuracy (Round 10): 1.0000
+Global Model, Round 10, Loss: 1.9903, Accuracy: 0.38
+
+--- FedAvg: Round 11 ---
+Client 1, Epoch 1/5, Loss: 0.2517
+Client 1, Epoch 2/5, Loss: 0.2029
+Client 1, Epoch 3/5, Loss: 0.2924
+Client 1, Epoch 4/5, Loss: 5.7441
+Client 1, Epoch 5/5, Loss: 2.3099
+Client 1 Accuracy (Round 11): 0.9286
+Client 2, Epoch 1/5, Loss: 0.9149
+Client 2, Epoch 2/5, Loss: 0.4058
+Client 2, Epoch 3/5, Loss: 0.4830
+Client 2, Epoch 4/5, Loss: 1.8625
+Client 2, Epoch 5/5, Loss: 2.6954
+Client 2 Accuracy (Round 11): 0.9996
+Client 3, Epoch 1/5, Loss: 0.2725
+Client 3, Epoch 2/5, Loss: 0.2431
+Client 3, Epoch 3/5, Loss: 0.0634
+Client 3, Epoch 4/5, Loss: 1.6020
+Client 3, Epoch 5/5, Loss: 2.2222
+Client 3 Accuracy (Round 11): 0.9998
+Global Model, Round 11, Loss: 1.9859, Accuracy: 0.39
+
+--- FedAvg: Round 12 ---
+Client 1, Epoch 1/5, Loss: 1.7746
+Client 1, Epoch 2/5, Loss: 0.4717
+Client 1, Epoch 3/5, Loss: 0.5335
+Client 1, Epoch 4/5, Loss: 1.1387
+Client 1, Epoch 5/5, Loss: 1.0415
+Client 1 Accuracy (Round 12): 0.9998
+Client 2, Epoch 1/5, Loss: 0.4823
+Client 2, Epoch 2/5, Loss: 0.3224
+Client 2, Epoch 3/5, Loss: 0.4417
+Client 2, Epoch 4/5, Loss: 0.1173
+Client 2, Epoch 5/5, Loss: 0.0967
+Client 2 Accuracy (Round 12): 1.0000
+Client 3, Epoch 1/5, Loss: 0.5011
+Client 3, Epoch 2/5, Loss: 0.3918
+Client 3, Epoch 3/5, Loss: 0.1138
+Client 3, Epoch 4/5, Loss: 0.2527
+Client 3, Epoch 5/5, Loss: 0.1699
+Client 3 Accuracy (Round 12): 1.0000
+Global Model, Round 12, Loss: 1.9910, Accuracy: 0.39
+
+--- FedAvg: Round 13 ---
+Client 1, Epoch 1/5, Loss: 2.2878
+Client 1, Epoch 2/5, Loss: 3.9346
+Client 1, Epoch 3/5, Loss: 3.4394
+Client 1, Epoch 4/5, Loss: 1.7565
+Client 1, Epoch 5/5, Loss: 0.6082
+Client 1 Accuracy (Round 13): 0.9980
+Client 2, Epoch 1/5, Loss: 0.1343
+Client 2, Epoch 2/5, Loss: 0.5653
+Client 2, Epoch 3/5, Loss: 0.3113
+Client 2, Epoch 4/5, Loss: 0.1219
+Client 2, Epoch 5/5, Loss: 0.8507
+Client 2 Accuracy (Round 13): 0.9964
+Client 3, Epoch 1/5, Loss: 2.6574
+Client 3, Epoch 2/5, Loss: 0.7873
+Client 3, Epoch 3/5, Loss: 1.1153
+Client 3, Epoch 4/5, Loss: 0.8600
+Client 3, Epoch 5/5, Loss: 0.3357
+Client 3 Accuracy (Round 13): 1.0000
+Global Model, Round 13, Loss: 1.9856, Accuracy: 0.39
+
+--- FedAvg: Round 14 ---
+Client 1, Epoch 1/5, Loss: 0.7657
+Client 1, Epoch 2/5, Loss: 1.1647
+Client 1, Epoch 3/5, Loss: 0.3132
+Client 1, Epoch 4/5, Loss: 3.4504
+Client 1, Epoch 5/5, Loss: 8.1746
+Client 1 Accuracy (Round 14): 0.9170
+Client 2, Epoch 1/5, Loss: 3.5106
+Client 2, Epoch 2/5, Loss: 5.5856
+Client 2, Epoch 3/5, Loss: 1.3996
+Client 2, Epoch 4/5, Loss: 1.6437
+Client 2, Epoch 5/5, Loss: 0.5625
+Client 2 Accuracy (Round 14): 1.0000
+Client 3, Epoch 1/5, Loss: 0.1015
+Client 3, Epoch 2/5, Loss: 5.5961
+Client 3, Epoch 3/5, Loss: 3.6169
+Client 3, Epoch 4/5, Loss: 0.6434
+Client 3, Epoch 5/5, Loss: 1.0298
+Client 3 Accuracy (Round 14): 0.9462
+Global Model, Round 14, Loss: 2.0155, Accuracy: 0.37
+
+--- FedAvg: Round 15 ---
+Client 1, Epoch 1/5, Loss: 3.3281
+Client 1, Epoch 2/5, Loss: 2.1940
+Client 1, Epoch 3/5, Loss: 2.8085
+Client 1, Epoch 4/5, Loss: 0.8919
+Client 1, Epoch 5/5, Loss: 0.2791
+Client 1 Accuracy (Round 15): 1.0000
+Client 2, Epoch 1/5, Loss: 0.1943
+Client 2, Epoch 2/5, Loss: 2.5188
+Client 2, Epoch 3/5, Loss: 1.1620
+Client 2, Epoch 4/5, Loss: 1.7743
+Client 2, Epoch 5/5, Loss: 0.9280
+Client 2 Accuracy (Round 15): 0.9952
+Client 3, Epoch 1/5, Loss: 2.7757
+Client 3, Epoch 2/5, Loss: 1.0607
+Client 3, Epoch 3/5, Loss: 0.2138
+Client 3, Epoch 4/5, Loss: 0.2083
+Client 3, Epoch 5/5, Loss: 1.4444
+Client 3 Accuracy (Round 15): 0.9944
+Global Model, Round 15, Loss: 2.0228, Accuracy: 0.34
+
+--- FedAvg: Round 16 ---
+Client 1, Epoch 1/5, Loss: 0.1821
+Client 1, Epoch 2/5, Loss: 0.1414
+Client 1, Epoch 3/5, Loss: 0.3776
+Client 1, Epoch 4/5, Loss: 0.0875
+Client 1, Epoch 5/5, Loss: 0.8592
+Client 1 Accuracy (Round 16): 0.9726
+Client 2, Epoch 1/5, Loss: 0.8928
+Client 2, Epoch 2/5, Loss: 0.2164
+Client 2, Epoch 3/5, Loss: 6.9942
+Client 2, Epoch 4/5, Loss: 12.5705
+Client 2, Epoch 5/5, Loss: 1.7814
+Client 2 Accuracy (Round 16): 0.9998
+Client 3, Epoch 1/5, Loss: 0.4126
+Client 3, Epoch 2/5, Loss: 0.3358
+Client 3, Epoch 3/5, Loss: 1.3278
+Client 3, Epoch 4/5, Loss: 2.6728
+Client 3, Epoch 5/5, Loss: 3.5536
+Client 3 Accuracy (Round 16): 0.8233
+Global Model, Round 16, Loss: 2.0321, Accuracy: 0.35
+
+--- FedAvg: Round 17 ---
+Client 1, Epoch 1/5, Loss: 3.1125
+Client 1, Epoch 2/5, Loss: 2.5863
+Client 1, Epoch 3/5, Loss: 1.9724
+Client 1, Epoch 4/5, Loss: 8.0271
+Client 1, Epoch 5/5, Loss: 1.6468
+Client 1 Accuracy (Round 17): 1.0000
+Client 2, Epoch 1/5, Loss: 2.5863
+Client 2, Epoch 2/5, Loss: 2.4667
+Client 2, Epoch 3/5, Loss: 0.3352
+Client 2, Epoch 4/5, Loss: 0.2879
+Client 2, Epoch 5/5, Loss: 0.2627
+Client 2 Accuracy (Round 17): 1.0000
+Client 3, Epoch 1/5, Loss: 1.5395
+Client 3, Epoch 2/5, Loss: 0.5450
+Client 3, Epoch 3/5, Loss: 0.3260
+Client 3, Epoch 4/5, Loss: 0.4143
+Client 3, Epoch 5/5, Loss: 0.8534
+Client 3 Accuracy (Round 17): 0.9996
+Global Model, Round 17, Loss: 2.0305, Accuracy: 0.38
+
+--- FedAvg: Round 18 ---
+Client 1, Epoch 1/5, Loss: 0.6082
+Client 1, Epoch 2/5, Loss: 2.6627
+Client 1, Epoch 3/5, Loss: 4.7873
+Client 1, Epoch 4/5, Loss: 2.0941
+Client 1, Epoch 5/5, Loss: 1.1581
+Client 1 Accuracy (Round 18): 0.9998
+Client 2, Epoch 1/5, Loss: 0.1428
+Client 2, Epoch 2/5, Loss: 0.2855
+Client 2, Epoch 3/5, Loss: 1.2070
+Client 2, Epoch 4/5, Loss: 0.1729
+Client 2, Epoch 5/5, Loss: 0.1265
+Client 2 Accuracy (Round 18): 1.0000
+Client 3, Epoch 1/5, Loss: 0.5634
+Client 3, Epoch 2/5, Loss: 0.1272
+Client 3, Epoch 3/5, Loss: 0.0865
+Client 3, Epoch 4/5, Loss: 1.0430
+Client 3, Epoch 5/5, Loss: 3.7807
+Client 3 Accuracy (Round 18): 0.6471
+Global Model, Round 18, Loss: 2.0654, Accuracy: 0.34
+
+--- FedAvg: Round 19 ---
+Client 1, Epoch 1/5, Loss: 6.3131
+Client 1, Epoch 2/5, Loss: 1.5435
+Client 1, Epoch 3/5, Loss: 0.3524
+Client 1, Epoch 4/5, Loss: 0.1749
+Client 1, Epoch 5/5, Loss: 0.1953
+Client 1 Accuracy (Round 19): 1.0000
+Client 2, Epoch 1/5, Loss: 0.4387
+Client 2, Epoch 2/5, Loss: 0.1698
+Client 2, Epoch 3/5, Loss: 0.8106
+Client 2, Epoch 4/5, Loss: 0.6333
+Client 2, Epoch 5/5, Loss: 0.5305
+Client 2 Accuracy (Round 19): 1.0000
+Client 3, Epoch 1/5, Loss: 10.4747
+Client 3, Epoch 2/5, Loss: 1.5994
+Client 3, Epoch 3/5, Loss: 0.4882
+Client 3, Epoch 4/5, Loss: 0.2794
+Client 3, Epoch 5/5, Loss: 2.6441
+Client 3 Accuracy (Round 19): 0.8986
+Global Model, Round 19, Loss: 1.9891, Accuracy: 0.41
+
+--- FedAvg: Round 20 ---
+Client 1, Epoch 1/5, Loss: 0.0823
+Client 1, Epoch 2/5, Loss: 0.7176
+Client 1, Epoch 3/5, Loss: 1.4322
+Client 1, Epoch 4/5, Loss: 0.2112
+Client 1, Epoch 5/5, Loss: 1.1213
+Client 1 Accuracy (Round 20): 0.9824
+Client 2, Epoch 1/5, Loss: 1.4682
+Client 2, Epoch 2/5, Loss: 1.3769
+Client 2, Epoch 3/5, Loss: 0.8316
+Client 2, Epoch 4/5, Loss: 0.3303
+Client 2, Epoch 5/5, Loss: 0.2067
+Client 2 Accuracy (Round 20): 0.9998
+Client 3, Epoch 1/5, Loss: 1.6403
+Client 3, Epoch 2/5, Loss: 1.5008
+Client 3, Epoch 3/5, Loss: 4.4498
+Client 3, Epoch 4/5, Loss: 2.0168
+Client 3, Epoch 5/5, Loss: 0.6229
+Client 3 Accuracy (Round 20): 1.0000
+Global Model, Round 20, Loss: 2.0275, Accuracy: 0.36
+
+--- FedAvg: Round 21 ---
+Client 1, Epoch 1/5, Loss: 2.5321
+Client 1, Epoch 2/5, Loss: 2.8340
+Client 1, Epoch 3/5, Loss: 3.3971
+Client 1, Epoch 4/5, Loss: 1.9849
+Client 1, Epoch 5/5, Loss: 0.6915
+Client 1 Accuracy (Round 21): 0.9946
+Client 2, Epoch 1/5, Loss: 0.4707
+Client 2, Epoch 2/5, Loss: 0.0993
+Client 2, Epoch 3/5, Loss: 0.1229
+Client 2, Epoch 4/5, Loss: 0.1864
+Client 2, Epoch 5/5, Loss: 0.0841
+Client 2 Accuracy (Round 21): 1.0000
+Client 3, Epoch 1/5, Loss: 0.5632
+Client 3, Epoch 2/5, Loss: 1.4927
+Client 3, Epoch 3/5, Loss: 0.7310
+Client 3, Epoch 4/5, Loss: 0.2195
+Client 3, Epoch 5/5, Loss: 0.1073
+Client 3 Accuracy (Round 21): 1.0000
+Global Model, Round 21, Loss: 2.0419, Accuracy: 0.35
+
+--- FedAvg: Round 22 ---
+Client 1, Epoch 1/5, Loss: 0.7836
+Client 1, Epoch 2/5, Loss: 4.5512
+Client 1, Epoch 3/5, Loss: 7.3481
+Client 1, Epoch 4/5, Loss: 0.9147
+Client 1, Epoch 5/5, Loss: 0.4764
+Client 1 Accuracy (Round 22): 1.0000
+Client 2, Epoch 1/5, Loss: 0.1274
+Client 2, Epoch 2/5, Loss: 2.1182
+Client 2, Epoch 3/5, Loss: 11.3605
+Client 2, Epoch 4/5, Loss: 1.5692
+Client 2, Epoch 5/5, Loss: 1.3711
+Client 2 Accuracy (Round 22): 0.9096
+Client 3, Epoch 1/5, Loss: 0.1301
+Client 3, Epoch 2/5, Loss: 0.1744
+Client 3, Epoch 3/5, Loss: 0.1493
+Client 3, Epoch 4/5, Loss: 0.1816
+Client 3, Epoch 5/5, Loss: 0.3660
+Client 3 Accuracy (Round 22): 1.0000
+Global Model, Round 22, Loss: 2.0622, Accuracy: 0.38
+
+--- FedAvg: Round 23 ---
+Client 1, Epoch 1/5, Loss: 0.1621
+Client 1, Epoch 2/5, Loss: 0.1392
+Client 1, Epoch 3/5, Loss: 0.1305
+Client 1, Epoch 4/5, Loss: 0.1874
+Client 1, Epoch 5/5, Loss: 0.0761
+Client 1 Accuracy (Round 23): 1.0000
+Client 2, Epoch 1/5, Loss: 3.7132
+Client 2, Epoch 2/5, Loss: 2.6437
+Client 2, Epoch 3/5, Loss: 6.6857
+Client 2, Epoch 4/5, Loss: 2.4870
+Client 2, Epoch 5/5, Loss: 0.3886
+Client 2 Accuracy (Round 23): 1.0000
+Client 3, Epoch 1/5, Loss: 0.2026
+Client 3, Epoch 2/5, Loss: 0.1413
+Client 3, Epoch 3/5, Loss: 0.0951
+Client 3, Epoch 4/5, Loss: 0.0602
+Client 3, Epoch 5/5, Loss: 0.0933
+Client 3 Accuracy (Round 23): 1.0000
+Global Model, Round 23, Loss: 2.0327, Accuracy: 0.39
+
+--- FedAvg: Round 24 ---
+Client 1, Epoch 1/5, Loss: 1.1995
+Client 1, Epoch 2/5, Loss: 3.1010
+Client 1, Epoch 3/5, Loss: 0.9299
+Client 1, Epoch 4/5, Loss: 1.5033
+Client 1, Epoch 5/5, Loss: 0.4663
+Client 1 Accuracy (Round 24): 1.0000
+Client 2, Epoch 1/5, Loss: 1.9932
+Client 2, Epoch 2/5, Loss: 2.2728
+Client 2, Epoch 3/5, Loss: 1.5547
+Client 2, Epoch 4/5, Loss: 3.9372
+Client 2, Epoch 5/5, Loss: 1.7586
+Client 2 Accuracy (Round 24): 1.0000
+Client 3, Epoch 1/5, Loss: 0.2238
+Client 3, Epoch 2/5, Loss: 0.0509
+Client 3, Epoch 3/5, Loss: 0.0460
+Client 3, Epoch 4/5, Loss: 0.0254
+Client 3, Epoch 5/5, Loss: 2.9665
+Client 3 Accuracy (Round 24): 0.5774
+Global Model, Round 24, Loss: 2.0732, Accuracy: 0.37
+
+--- FedAvg: Round 25 ---
+Client 1, Epoch 1/5, Loss: 0.5749
+Client 1, Epoch 2/5, Loss: 0.1633
+Client 1, Epoch 3/5, Loss: 0.0889
+Client 1, Epoch 4/5, Loss: 0.9672
+Client 1, Epoch 5/5, Loss: 0.4555
+Client 1 Accuracy (Round 25): 1.0000
+Client 2, Epoch 1/5, Loss: 5.1964
+Client 2, Epoch 2/5, Loss: 1.8320
+Client 2, Epoch 3/5, Loss: 0.7530
+Client 2, Epoch 4/5, Loss: 0.3656
+Client 2, Epoch 5/5, Loss: 0.4387
+Client 2 Accuracy (Round 25): 0.9778
+Client 3, Epoch 1/5, Loss: 6.4607
+Client 3, Epoch 2/5, Loss: 1.0037
+Client 3, Epoch 3/5, Loss: 3.5254
+Client 3, Epoch 4/5, Loss: 0.4797
+Client 3, Epoch 5/5, Loss: 0.2749
+Client 3 Accuracy (Round 25): 1.0000
+Global Model, Round 25, Loss: 2.0418, Accuracy: 0.39
+Classification Report: fedavg ResNet-18
+              precision    recall  f1-score   support
+
+    airplane       0.24      0.86      0.38      1000
+  automobile       0.74      0.13      0.23      1000
+        bird       0.35      0.24      0.28      1000
+         cat       0.28      0.19      0.22      1000
+        deer       0.00      0.00      0.00      1000
+         dog       0.22      0.68      0.34      1000
+        frog       0.47      0.38      0.42      1000
+       horse       0.74      0.27      0.39      1000
+        ship       0.46      0.02      0.05      1000
+       truck       0.49      0.34      0.41      1000
+
+    accuracy                           0.31     10000
+   macro avg       0.40      0.31      0.27     10000
+weighted avg       0.40      0.31      0.27     10000
+
+Classification Report: fedavg ResNet-50
+              precision    recall  f1-score   support
+
+    airplane       0.40      0.57      0.47      1000
+  automobile       0.72      0.22      0.34      1000
+        bird       0.30      0.65      0.41      1000
+         cat       0.44      0.31      0.36      1000
+        deer       0.00      0.00      0.00      1000
+         dog       0.56      0.01      0.01      1000
+        frog       0.54      0.68      0.60      1000
+       horse       0.76      0.37      0.50      1000
+        ship       0.35      0.26      0.30      1000
+       truck       0.29      0.86      0.44      1000
+
+    accuracy                           0.39     10000
+   macro avg       0.44      0.39      0.34     10000
+weighted avg       0.44      0.39      0.34     10000
+
+
+Performing Inference: fedavg ResNet-18
+Prediction: cat, Ground Truth: cat
+Prediction: airplane, Ground Truth: ship
+Prediction: airplane, Ground Truth: ship
+Prediction: airplane, Ground Truth: airplane
+Prediction: dog, Ground Truth: frog
+Prediction: dog, Ground Truth: frog
+Prediction: airplane, Ground Truth: automobile
+Prediction: cat, Ground Truth: frog
+Prediction: dog, Ground Truth: cat
+Prediction: airplane, Ground Truth: automobile
+
+Performing Inference: fedavg ResNet-50
+Prediction: cat, Ground Truth: cat
+Prediction: automobile, Ground Truth: ship
+Prediction: airplane, Ground Truth: ship
+Prediction: airplane, Ground Truth: airplane
+Prediction: truck, Ground Truth: frog
+Prediction: frog, Ground Truth: frog
+Prediction: automobile, Ground Truth: automobile
+Prediction: truck, Ground Truth: frog
+Prediction: frog, Ground Truth: cat
+Prediction: truck, Ground Truth: automobile
