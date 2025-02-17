@@ -28,3 +28,21 @@ The script accepts the following command-line arguments to configure the federat
 - --num_clients: The number of clients participating in the learning process.
 - --rounds: The number of communication rounds in the federated learning process.
 - --local_epochs: The number of epochs each client will train locally before averaging.
+
+## Outputs
+
+The simulation generates several outputs that help evaluate the performance of the federated learning models. Here is a detailed breakdown of the output files stored in the `artifacts` folder:
+
+### Confusion Matrices
+- **ResNet-18 Confusion Matrix:** Shows the performance of the ResNet-18 model in classifying images into categories such as COVID, Normal, and Viral Pneumonia. This matrix helps visualize the accuracy of predictions against true labels.
+- **ResNet-50 Confusion Matrix:** Similar to the ResNet-18 matrix but for the ResNet-50 model, providing insight into its classification effectiveness.
+
+### Accuracy and Loss Graphs
+- **Accuracy Comparison Across Rounds:** This graph plots the accuracy of the ResNet-18 and ResNet-50 models across different rounds of federated learning. It is crucial for understanding how model accuracy evolves with each communication round between clients.
+- **Loss Comparison Across Rounds:** Illustrates the change in loss for both ResNet models across federated learning rounds, highlighting how model performance improves or degrades over time.
+
+### Inference Results
+- **ResNet-50 Inference Results:** Displays a series of X-ray images alongside their predicted and true labels, demonstrating the ResNet-50 model’s ability to classify medical images under real-world conditions.
+- **ResNet-18 Inference Results:** Similar to the ResNet-50 results but showcasing the inference capabilities of the ResNet-18 model.
+
+These outputs collectively offer a comprehensive view of the model's performance across different metrics and practical scenarios, providing valuable insights into the effectiveness of federated learning strategies employed.
