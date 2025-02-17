@@ -49,6 +49,9 @@ The simulation generates several outputs that help evaluate the performance of t
 
 ### Inference Results
 - **ResNet-50 Inference Results:** Displays a series of X-ray images alongside their predicted and true labels, demonstrating the ResNet-50 model’s ability to classify medical images under real-world conditions.
+  <img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_ResNet-50_Inference.png" width="25%" alt="fedavg_FMNIST_IID_Resnet-50 Inference results">
+
 - **ResNet-18 Inference Results:** Similar to the ResNet-50 results but showcasing the inference capabilities of the ResNet-18 model.
+  img src="https://github.com/kruthiksai/Federated-Learning-for-Image-Classification-Using-ResNet-Architectures/blob/main/artifacts_rounds_20_epoch_5_clients_5_IID/fedavg_FMNIST_IID_ResNet-18_Inference.png" width="25%" alt="fedavg_FMNIST_IID_Resnet-18 Inference results">
 
 These outputs collectively offer a comprehensive view of the model's performance across different metrics and practical scenarios, providing valuable insights into the effectiveness of federated learning strategies employed.
