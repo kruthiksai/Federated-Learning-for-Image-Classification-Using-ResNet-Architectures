@@ -17,6 +17,7 @@ To run the simulation, you need to specify several parameters that configure the
 
 ```bash
 python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=2 --num_clients=2 --distribution=IID --local_epochs=5
+```
 
 ## Inputs
 The script accepts the following command-line arguments to configure the federated learning simulation:
