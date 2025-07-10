@@ -42,14 +42,13 @@ python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients
 ## 📁 Project Folder Structure
 ```
 Federated-Learning/
-├── artifacts/                                 # Stores generated accuracy/loss graphs and confusion matrices
-│   ├── New folder/                            # Results for CUSTOM dataset
-│   │   ├── fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png
-│   │   ├── fedavg_CUSTOM_IID_Loss_Graph_4clients.png
-│   │   ├── fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png
-│   │   ├── fedavg_CUSTOM_IID_ResNet-18_Inference.png
-│   │   ├── fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png
-│   │   └── fedavg_CUSTOM_IID_ResNet-50_Inference.png
+├── artifacts/                                 # Stores generated accuracy/loss graphs and confusion matrices for CUSTOM dataset
+│   ├── fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png                  
+│   │── fedavg_CUSTOM_IID_Loss_Graph_4clients.png
+│   │── fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png
+│   │── fedavg_CUSTOM_IID_ResNet-18_Inference.png
+│   │── fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png
+│   │── fedavg_CUSTOM_IID_ResNet-50_Inference.png   
 │   ├── artifacts_rounds_10_clients_5_epochs_5_IID/
 │   ├── artifacts_rounds_20_clients_3_epochs_5_IID/
 │   ├── artifacts_rounds_20_clients_5_epochs_5_IID/
