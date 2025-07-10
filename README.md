@@ -25,6 +25,7 @@ Run the project using the following command:
 
 python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients=1 --distribution=IID --local_epochs=25
 
+## ⚙️ Available Command-Line Parameters
 ---------------------------------------------------------------------------------------------
 | Parameter        | Description                                                            |
 | ---------------- | ---------------------------------------------------------------------- |
