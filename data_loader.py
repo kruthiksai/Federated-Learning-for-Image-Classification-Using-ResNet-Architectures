@@ -10,7 +10,7 @@ encryption_key = b'project_group14a'
 
 
 def data_loader_function(dataset_name, num_clients, data_type = 'IID', num_classes_per_client = 3):
-    print("kruthik")
+
     if dataset_name == 'CUSTOM':
         transform = transforms.Compose([
             transforms.Resize((256, 256)),  # Resize images to a consistent size
