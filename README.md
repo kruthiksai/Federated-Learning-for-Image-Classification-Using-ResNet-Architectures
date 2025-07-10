@@ -19,3 +19,22 @@ Make sure to install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+```
+Run the project using the following command:
+
+python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients=1 --distribution=IID --local_epochs=25
+
+---------------------------------------------------------------------------------------------
+| Parameter        | Description                                                            |
+| ---------------- | ---------------------------------------------------------------------- |
+| `--algo_name`    | Federated Learning algorithm: `fedavg`, `fedsgd`, `feddyn`, `scaffold` |
+| `--dataset_name` | Dataset to use: `FMNIST`, `CIFAR`, `CUSTOM`                            |
+| `--distribution` | Data distribution: `IID`, `non-IID`                                    |
+| `--num_clients`  | Number of participating clients (e.g., 5, 10)                          |
+| `--rounds`       | Number of federated training rounds                                    |
+| `--local_epochs` | Number of local epochs per client                                      |
+---------------------------------------------------------------------------------------------
+
+
+
