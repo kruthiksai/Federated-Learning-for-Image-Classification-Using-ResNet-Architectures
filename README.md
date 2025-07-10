@@ -37,13 +37,6 @@ python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients
 | `--local_epochs` | Number of local epochs per client                                      |
 ---------------------------------------------------------------------------------------------
 
-##📊 Results
-After training, the following outputs are generated:
-Accuracy comparison plot between ResNet-18 and ResNet-50
-Loss visualization per round
-Confusion matrix for each model
-Classification report including precision, recall, and F1-score
-Inference samples from the test set with predicted labels
 
 
 ## 📁 Project Folder Structure
@@ -82,6 +75,26 @@ Federated-Learning/
 ├── main.py                                    # Entry point to run the training script
 └── README.md                                  # Project documentation
 ```
+
+## 📊 Results
+
+### ✅ Accuracy Comparison Plot (ResNet-18 vs ResNet-50)
+![Accuracy Comparison](artifacts/New%20folder/fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png)
+
+### ✅ Loss Visualization per Round
+![Loss Visualization](artifacts/New%20folder/fedavg_CUSTOM_IID_Loss_Graph_4clients.png)
+
+### ✅ Confusion Matrix – ResNet-18
+![Confusion Matrix ResNet-18](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png)
+
+### ✅ Confusion Matrix – ResNet-50
+![Confusion Matrix ResNet-50](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png)
+
+### ✅ Inference Samples – ResNet-18
+![Inference ResNet-18](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-18_Inference.png)
+
+### ✅ Inference Samples – ResNet-50
+![Inference ResNet-50](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-50_Inference.png)
 
 
 
