@@ -78,22 +78,22 @@ Federated-Learning/
 ## 📊 Results
 
 ### ✅ Accuracy Comparison Plot (ResNet-18 vs ResNet-50)
-![Accuracy Comparison](artifacts/New%20folder/fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png)
+![Accuracy Comparison](artifacts/fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png)
 
 ### ✅ Loss Visualization per Round
-![Loss Visualization](artifacts/New%20folder/fedavg_CUSTOM_IID_Loss_Graph_4clients.png)
+![Loss Visualization](artifacts/fedavg_CUSTOM_IID_Loss_Graph_4clients.png)
 
 ### ✅ Confusion Matrix – ResNet-18
-![Confusion Matrix ResNet-18](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png)
+![Confusion Matrix ResNet-18](artifacts/fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png)
 
 ### ✅ Confusion Matrix – ResNet-50
-![Confusion Matrix ResNet-50](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png)
+![Confusion Matrix ResNet-50](artifacts/fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png)
 
 ### ✅ Inference Samples – ResNet-18
-![Inference ResNet-18](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-18_Inference.png)
+![Inference ResNet-18](artifacts/fedavg_CUSTOM_IID_ResNet-18_Inference.png)
 
 ### ✅ Inference Samples – ResNet-50
-![Inference ResNet-50](artifacts/New%20folder/fedavg_CUSTOM_IID_ResNet-50_Inference.png)
+![Inference ResNet-50](artifacts/fedavg_CUSTOM_IID_ResNet-50_Inference.png)
 
 
 
