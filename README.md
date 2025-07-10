@@ -37,17 +37,49 @@ python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients
 | `--local_epochs` | Number of local epochs per client                                      |
 ---------------------------------------------------------------------------------------------
 
-📊 Results
+##📊 Results
 After training, the following outputs are generated:
-
 Accuracy comparison plot between ResNet-18 and ResNet-50
-
 Loss visualization per round
-
 Confusion matrix for each model
-
 Classification report including precision, recall, and F1-score
-
 Inference samples from the test set with predicted labels
+
+
+## 📁 Project Folder Structure
+Federated-Learning/
+├── artifacts/                               # Stores generated accuracy/loss graphs and confusion matrices
+│   ├── New folder/                          # Results for CUSTOM dataset
+│   │   ├── fedavg_CUSTOM_IID_Accuracy_Graph_4clients.png
+│   │   ├── fedavg_CUSTOM_IID_Loss_Graph_4clients.png
+│   │   ├── fedavg_CUSTOM_IID_ResNet-18_Confusion_Matrix.png
+│   │   ├── fedavg_CUSTOM_IID_ResNet-18_Inference.png
+│   │   ├── fedavg_CUSTOM_IID_ResNet-50_Confusion_Matrix.png
+│   │   └── fedavg_CUSTOM_IID_ResNet-50_Inference.png
+│   ├── artifacts_rounds_10_clients_5_epochs_5_IID/    # Results for FMNIST or CIFAR (example)
+│   ├── artifacts_rounds_20_clients_3_epochs_5_IID/
+│   ├── artifacts_rounds_20_clients_5_epochs_5_IID/
+│   └── artifacts_rounds_25_clients_3_nonIID/
+│
+├── logs_rounds_10_clients_5_epochs_3_IID/   # Logs per round (training progress)
+├── logs_rounds_20_clients_3_epochs_5_IID/
+├── logs_rounds_20_clients_5_epochs_5_IID/
+├── logs_rounds_25_clients_3_nonIID/
+│
+├── data/                                    # Folder containing training/test data
+│
+├── .gitignore
+├── data_loader.py                           # Loads and partitions datasets
+├── data_split.py                            # Custom data splitting utility
+├── federated_averaging.py                   # Implementation of FedAvg
+├── federated_dyn.py                         # Implementation of FedDyn
+├── federated_learning.py                    # Main federated learning loop logic
+├── federated_scaffold.py                    # Implementation of SCAFFOLD
+├── federated_sgd.py                         # Implementation of FedSGD
+├── resnet_model.py                          # ResNet-18 and ResNet-50 models + evaluation
+├── security.py                              # Placeholder for any future encryption logic
+├── main.py                                  # Entry point to run the training script
+└── README.md                                # Project documentation
+
 
 
