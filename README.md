@@ -37,5 +37,17 @@ python main.py --dataset_name=CUSTOM --algo_name=fedavg --rounds=1 --num_clients
 | `--local_epochs` | Number of local epochs per client                                      |
 ---------------------------------------------------------------------------------------------
 
+📊 Results
+After training, the following outputs are generated:
+
+Accuracy comparison plot between ResNet-18 and ResNet-50
+
+Loss visualization per round
+
+Confusion matrix for each model
+
+Classification report including precision, recall, and F1-score
+
+Inference samples from the test set with predicted labels
 
 
