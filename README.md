@@ -47,7 +47,7 @@ Inference samples from the test set with predicted labels
 
 
 ## 📁 Project Folder Structure
-
+```
 Federated-Learning/
 ├── artifacts/                                 # Stores generated accuracy/loss graphs and confusion matrices
 │   ├── New folder/                            # Results for CUSTOM dataset
@@ -81,7 +81,7 @@ Federated-Learning/
 ├── security.py                                # Placeholder for any future encryption logic
 ├── main.py                                    # Entry point to run the training script
 └── README.md                                  # Project documentation
-
+```
 
 
 
